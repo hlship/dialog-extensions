@@ -35,7 +35,8 @@
     Conversations take the form of connect series of questions or statements between you
     and another character in the world
     
-    (par)Here you could
+    (par)
+    Here you could
     (suggest command [ask $NPC  | $QuipWords]), or 
     \(because you are already talking to (the $NPC)\)
     you don't have to mention their name, and can just

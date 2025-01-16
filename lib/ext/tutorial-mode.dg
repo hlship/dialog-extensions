@@ -52,14 +52,23 @@
     or back on with (suggest command [tutorial on]). \]
 
 (interface (can perform $<Suggestion with $>Operand))
-(interface (narrate after suggestion $<Suggestion))
+(interface (after performance suggest $<Suggestion))
+(interface (suggest command $<Action))
+(interface (print suggested command $<Action))
 
 (suggest command $Action)
-   (span @bold) {
-        (exhaust) {
-         *($Word is one of $Action)
-            (command word $Word)
-        }
+    (library links enabled)
+    (span @bold) {
+        (link) (print suggested command $Action)
+    }
+
+(suggest command $Action)
+    (print suggested command $Action)
+
+(print suggested command $Action)
+    (exhaust) {
+        *($Word is one of $Action)
+        (command word $Word)
     }
 
 (make tutorial suggestion)

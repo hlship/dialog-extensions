@@ -69,6 +69,9 @@ Likely quips are those that follow the current thread of conversation; available
 You can see in the transcript that it's possible to `ask barmaid about rumors`, which engages the barmaid in conversation.
 The player makes the comment ("Where I come from ...") and the barmaid NPC replies ("Oh, do they? ...").
 
+Suggested quips will be links if the platform supports it (such as aamachine for web),
+and if the standard library predicate `(library links enabled)` succeeds.
+
 The style of TC is that the player's command is a bit general, but the comment and reply in the quip is more specific.
 
 In any case, it is possible to skip the `ask` or `tell` part of the command, and just identify key words of the quip.

@@ -469,7 +469,7 @@
     (conversation partner $NPC)
 
 (list quips $Quips)
-    (listing $Quips { (describe quip $_) } @or [] 0)
+    (listing $Quips { (describe suggested quip $_) } @or [] 0)
 
 %% (describe quip $) is only used in the context of an active conversation partner,
 %% so it's preferable to converting the quip to an action and describing the action, as
@@ -764,14 +764,14 @@
 
 (describe action $Action)
     ($Action = [perform quip $Quip])
-    %% Contrary to the documentation, using (link) (at least in the debugger), produces
-    %% odd output, so protecting it as here makes sense.
-    (if) (library links enabled)
-    (then)
-        (link) (describe quip $Quip)
-    (else)
-        (describe quip $Quip)
-    (endif)
+    (describe suggested quip $Quip)
+
+(describe suggested quip $Quip)
+    (library links enabled)
+    (link) (describe quip $Quip)
+
+(describe suggested quip $Quip)
+    (describe quip $Quip)
 
 %% Clears the conversation partner and deletes most queued content.
 (interface (reset conversation partner))
