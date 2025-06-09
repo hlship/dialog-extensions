@@ -522,7 +522,8 @@ There are a number of predicates for queuing quips:
 
 `(queue postponed $Quip)` queues the quip, for the current conversation partner, as `#postponed-obligatory`.
 
-`(casually queue $Quip)` queues the quip for the current conversation partner, as `#postponed-optional`, but if the following holds:
+`(casually queue $Quip)` queues the quip for the current conversation partner, as `#postponed-optional`,
+but only when all of the following holds:
 - The current quip is not restrictive
 - The conversation partner can discuss the quip (the quip supplies the NPC, or is universally applicable)
 - The conversation partner does not recollect the quip
