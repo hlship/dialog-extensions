@@ -137,14 +137,6 @@
         You doubt much more would happen if it were switched on.
     (endif)
 
- 
-%% Move to crawl space
-
-#sonic-screwdriver
-(item *)    
-(name *) sonic screwdriver
-
-
 #dartboard
 (name *) dartboard
 (dict *) dart board

@@ -110,7 +110,6 @@
     to get in some practice. We have ourselves a little tourney, first Fridays," he adds, looking 
     around the empty pub, "most months."
 
-
 #not-enough-dimensions
 (telling quip *)
 (name *) the table is lacking dimensions
@@ -123,6 +122,7 @@
     "I'm sure it is, chap" you reply, "but playing in a merely two dimensional field just doesn't hold my interest."
     (par)
     The bartender looks disappointed and confused.
+    (queue postponed #offer-pint)
 
 #no-need-to-shout
 (telling quip *)
@@ -135,7 +135,12 @@
 (reply *)
     His face reveals a mixture of annoyance and relief.
     (reset conversation partner)
- 
+
+#offer-pint
+(reply *)
+    "So," begins the bartender, "interested in a pint?  We don't have much for food, but
+    I could put together a bit of bangers and mash for you.""
+
 #booths
 (actor container *)
 (ignored by tutorial *)

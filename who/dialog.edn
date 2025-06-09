@@ -1,7 +1,7 @@
 {:format :zblorb
  :name "whogoesthere"
  :sources
- {:main ["src"]
+ {:main ["src" "src/scenes"]
   :debug ["../lib/ext/debug"
           "../lib/dialog/debug"]
   :library ["../lib/ext"

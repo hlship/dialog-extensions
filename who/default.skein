@@ -337,6 +337,7 @@ parent-id: 1736385469797
 command: sceneinfo
 --------------------------------------------------------------------------------
 > sceneinfo
+#dinner-time
 #entering-the-pub (recurring, has started, has completed)
 
 --------------------------------------------------------------------------------
@@ -697,6 +698,12 @@ conv: queue #not-enough-dimensions for #bartender as #immediate-obligatory
 just doesn't hold my interest."
 
 The bartender looks disappointed and confused.
+conv: queue #offer-pint for #bartender as #postponed-obligatory
+
+The Bartender cranes his head awkwardly to find you in the game room.
+conv: #bartender queue is now []
+"So," begins the bartender, "interested in a pint? We don't have much for food,
+but I could put together a bit of bangers and mash for you.""
 conv: #bartender discussable quips [#where-everyone-is]
 
 You can make out a muffled, electronic whine, coming from above you, past the

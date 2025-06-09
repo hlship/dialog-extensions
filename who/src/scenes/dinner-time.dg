@@ -1,0 +1,4 @@
+#dinner-time
+(scene *)
+(start *)
+    (#bartender is #in #kitchen)

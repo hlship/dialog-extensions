@@ -1,0 +1,12 @@
+#crawl-space
+(room *)
+(name *) Crawl Space
+(look *) 
+    You've scrambled up above the game room into a cramped crawl space above the pub. 
+    You can see the blue felt of the billiards table below you.
+    A careful crawl over the dusty joists leads east over the pub's main interior.
+
+#sonic-screwdriver
+(item *)    
+(name *) sonic screwdriver
+(* is #in #crawl-space)
