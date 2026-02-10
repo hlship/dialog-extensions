@@ -18,7 +18,8 @@
         The edges of the floor are lit with a dim red light, and you can hear a low hum.
     (endif)
 
-(current player #player)
+#player
+(current player *)
 
 #table
 (supporter *)

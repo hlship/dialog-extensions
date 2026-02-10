@@ -225,6 +225,13 @@
 %% #postponed-optional - casual, cleared on change of subject
 %% #immediate-optional - casual, cleared on any player comment
 
+%% Establish these as known object names
+
+#immediate-obligatory
+#postponed-obligatory
+#postponed-optional
+#immediate-optional
+
 (interface (queue $<Quip for $<NPC))
 
 (queue $Quip for $NPC)

@@ -11,7 +11,7 @@
     The bartender watches you expectantly from the his preferred spot behind the bar.
     (endif)
 (instead of [listen to *])
-    (#fruit-machine is on)
+    (#fruit-game is on)
     (try [listen to #fruit-game])
 (from * go #south to #pub-interior)
 (* attracts #beam)

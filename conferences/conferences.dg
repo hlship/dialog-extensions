@@ -57,7 +57,8 @@
     "That is my hope as well," she says musically.
 (* reveals alliance)
 
-(current player #player)
+#player
+(current player *)
 
 (#player/#thurg/#lavine is #in #conference-chamber)
 

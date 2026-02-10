@@ -1,4 +1,5 @@
-(current player #player)
+#player
+(current player *)
 
 (story title)   The Exchange
 

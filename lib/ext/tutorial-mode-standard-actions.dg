@@ -73,7 +73,7 @@
 #wear-some-clothing
 (tutorial suggestion *)
 (can perform * with $Item)
-    (#take has been performed)
+    (#take-something has been performed)
     (current player $Player)
     *(wearable $Item)
     ~($Item is #wornby $Player)
