@@ -646,64 +646,11 @@ appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403473
-parent-id: 1736727647595
+parent-id: 1770696654129
 command: talk to bartender
 --------------------------------------------------------------------------------
 > talk to bartender
 You catch the bartender's eye, and he's eager to engage with his only customer.
-conv: #bartender discussable quips [#where-everyone-is #noisy-machine]
-
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
-
-You could ask where everyone is or say that the machine is quite noisy.
-
---------------------------------------------------------------------------------
-id: 1736659403474
-parent-id: 1736659403473
-command: machine
---------------------------------------------------------------------------------
-> machine
-conv: #bartender queue is now []
-"This thing," you say, pointing at the game machine, "makes quite the racket,
-doesn't it?" you state.
-conv: queue #noisy-machine for #bartender as #immediate-obligatory
-
-"Don't know that you can have a proper pub, these days, without at least one of
-'em. Brings in quite the crowd, I gather." He half-smiles, a bit sardonically,
-while glancing around the empty pub.
-
-"Still, on billiards night, I have to turn it off. Too much of a distraction."
-conv: queue #play-billiards for #bartender as #postponed-obligatory
-conv: #bartender discussable quips [#where-everyone-is #turn-noisy-machine-off]
-
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
-
-You could ask where everyone is or ask to turn it off.
-
---------------------------------------------------------------------------------
-id: 1736659403475
-label: dimensional gag
-parent-id: 1736726344146
-command: dimensions
---------------------------------------------------------------------------------
-> dimensions
-"I'm afraid your table doesn't have quite enough dimensions for me."
-conv: queue #not-enough-dimensions for #bartender as #immediate-obligatory
-
-"It's absolutely regulation size!" the bartender admonishes.
-
-"I'm sure it is, chap" you reply, "but playing in a merely two dimensional field
-just doesn't hold my interest."
-
-The bartender looks disappointed and confused.
-conv: queue #offer-pint for #bartender as #postponed-obligatory
-
-The Bartender cranes his head awkwardly to find you in the game room.
-conv: #bartender queue is now []
-"So," begins the bartender, "interested in a pint? We don't have much for food,
-but I could put together a bit of bangers and mash for you.""
 conv: #bartender discussable quips [#where-everyone-is]
 
 You can make out a muffled, electronic whine, coming from above you, past the
@@ -712,29 +659,13 @@ ceiling.
 You could ask where everyone is.
 
 --------------------------------------------------------------------------------
-id: 1736726344146
-parent-id: 1736659403474
-command: turn it off
+id: 1736659403475
+label: dimensional gag
+parent-id: 1736659403473
+command: dimensions
 --------------------------------------------------------------------------------
-> turn it off
-"I have no intention of engaging with that thing, could you bloody well pull the
-plug?".
-conv: queue #turn-noisy-machine-off for #bartender as #immediate-obligatory
-
-"Sorry, no," he replies "I like to keep tabs on the bar, unless I need to nip
-into the kitchen."
-
-The Bartender cranes his head awkwardly to find you in the game room.
-conv: #bartender queue is now []
-"You know," says the bartender, "I could pull out the cue and balls for you, if
-you'd like to get in some practice. We have ourselves a little tourney, first
-Fridays," he adds, looking around the empty pub, "most months."
-conv: #bartender discussable quips [#where-everyone-is #not-enough-dimensions]
-
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
-
-You could ask where everyone is or say the table is lacking dimensions.
+> dimensions
+(I'm sorry, I didn't understand what you wanted to do.)
 
 --------------------------------------------------------------------------------
 id: 1736726344147
@@ -1005,4 +936,131 @@ West through the pub door to Outside The Lamp And The Egg Pub.
 North to the Game Room.
 
 You could say that the machine is quite noisy.
+
+--------------------------------------------------------------------------------
+id: 1770696654129
+parent-id: 1736727647595
+command: * machine is off, so lose conv r.e. machine
+--------------------------------------------------------------------------------
+> * machine is off, so lose conv r.e. machine
+--------------------------------------------------------------------------------
+id: 1770696654130
+parent-id: 1736659403469
+command: e
+--------------------------------------------------------------------------------
+> e
+There doesn't appear to be an exit in that direction.
+
+The gambling machine falls silent for a moment, as if it's exhausted from all of
+its efforts to entice you to play.
+
+In this moment of relative quiet, you can barely make out another sound... an
+insistent high-pitched whine, strangely familar. The sound is muffled, as it
+appears to be coming from some place above the ceiling.
+
+--------------------------------------------------------------------------------
+id: 1770696654131
+parent-id: 1770696654130
+command: talk to bartender
+--------------------------------------------------------------------------------
+> talk to bartender
+You catch the bartender's eye, and he's eager to engage with his only customer.
+
+A cacacaphony of bells, chimes, and buzzers surge from the strange little
+machine.
+
+You could ask where everyone is or say that the machine is quite noisy.
+
+--------------------------------------------------------------------------------
+id: 1770696654132
+parent-id: 1770696654133
+command: everyone
+--------------------------------------------------------------------------------
+> everyone
+"Hey mate," you say, "awfully quiet night in here, isn't it?"
+
+"Right you are sir!" he says, with just a note of agitation. "Been like this for
+too long, I say. But it's not like folks are going to go all dry, is it?" He
+thinks for a moment. "Things will pick up, soon enough; they have to."
+
+You hear the sound of rockets launching from the little machine in the corner,
+and see a fireworks display animated on its screen. The explosions fade to the
+word "WIN!".
+
+You could say that the machine is quite noisy.
+
+--------------------------------------------------------------------------------
+id: 1770696654133
+parent-id: 1770696654131
+command: * machine is on
+--------------------------------------------------------------------------------
+> * machine is on
+--------------------------------------------------------------------------------
+id: 1770696654134
+parent-id: 1770696654132
+command: noisy
+--------------------------------------------------------------------------------
+> noisy
+"This thing," you say, pointing at the game machine, "makes quite the racket,
+doesn't it?" you state.
+
+"Don't know that you can have a proper pub, these days, without at least one of
+'em. Brings in quite the crowd, I gather." He half-smiles, a bit sardonically,
+while glancing around the empty pub.
+
+"Still, on billiards night, I have to turn it off. Too much of a distraction."
+
+A cacacaphony of bells, chimes, and buzzers surge from the strange little
+machine.
+
+You could ask to turn it off.
+
+--------------------------------------------------------------------------------
+id: 1770696654135
+label: CONVERSATION: TURN OFF MACHINE
+parent-id: 1770696654134
+command: off
+--------------------------------------------------------------------------------
+> off
+"I have no intention of engaging with that thing, could you bloody well pull the
+plug?".
+
+"Sorry, no," he replies "I like to keep tabs on the bar, unless I need to nip
+into the kitchen."
+
+The Bartender cranes his head awkwardly to find you in the game room. "You
+know," says the bartender, "I could pull out the cue and balls for you, if you'd
+like to get in some practice. We have ourselves a little tourney, first
+Fridays," he adds, looking around the empty pub, "most months."
+
+The gambling machine falls silent for a moment, as if it's exhausted from all of
+its efforts to entice you to play.
+
+In this moment of relative quiet, you can barely make out another sound... an
+insistent high-pitched whine, strangely familar. The sound is muffled, as it
+appears to be coming from some place above the ceiling.
+
+You could say the table is lacking dimensions.
+
+--------------------------------------------------------------------------------
+id: 1770696654136
+parent-id: 1770696654135
+command: dimensions
+--------------------------------------------------------------------------------
+> dimensions
+"I'm afraid your table doesn't have quite enough dimensions for me."
+
+"It's absolutely regulation size!" the bartender admonishes.
+
+"I'm sure it is, chap" you reply, "but playing in a merely two dimensional field
+just doesn't hold my interest."
+
+The bartender looks disappointed and confused.
+
+The Bartender cranes his head awkwardly to find you in the game room. "So,"
+begins the bartender, "interested in a pint? We don't have much for food, but I
+could put together a bit of bangers and mash for you.""
+
+A cacacaphony of bells, chimes, and buzzers surge from the strange little
+machine.
 
