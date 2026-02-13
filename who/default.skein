@@ -646,6 +646,7 @@ appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403473
+label: conversation: no machine
 parent-id: 1770696654129
 command: talk to bartender
 --------------------------------------------------------------------------------
@@ -659,53 +660,11 @@ ceiling.
 You could ask where everyone is.
 
 --------------------------------------------------------------------------------
-id: 1736659403475
-label: dimensional gag
-parent-id: 1736659403473
-command: dimensions
---------------------------------------------------------------------------------
-> dimensions
-(I'm sorry, I didn't understand what you wanted to do.)
-
---------------------------------------------------------------------------------
-id: 1736726344147
-parent-id: 1736659403475
-command: where
---------------------------------------------------------------------------------
-> where
-conv: #bartender queue is now []
-"Hey mate," you say, "awfully quiet night in here, isn't it?"
-conv: queue #where-everyone-is for #bartender as #immediate-obligatory
-
-"Right you are sir!" he says, with just a note of agitation. "Been like this for
-too long, I say. But it's not like folks are going to go all dry, is it?" He
-thinks for a moment. "Things will pick up, soon enough; they have to."
-conv: #bartender discussable quips []
-
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
-
---------------------------------------------------------------------------------
 id: 1736727647595
 parent-id: 1736659403468
 command: conversation debug on
 --------------------------------------------------------------------------------
 > conversation debug on
-
---------------------------------------------------------------------------------
-id: 1736727647596
-parent-id: 1736726344147
-command: look up
---------------------------------------------------------------------------------
-> look up
-Mounted into the ceiling, next to the lamp, is a sizable trap door; you presume
-it gives access to an upper floor, or more likely, a crawl-space above the game
-room.
-
-conv: #bartender discussable quips []
-
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736727647598
@@ -1017,7 +976,6 @@ You could ask to turn it off.
 
 --------------------------------------------------------------------------------
 id: 1770696654135
-label: CONVERSATION: TURN OFF MACHINE
 parent-id: 1770696654134
 command: off
 --------------------------------------------------------------------------------

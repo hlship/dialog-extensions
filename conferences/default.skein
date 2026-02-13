@@ -1,4 +1,3 @@
-engine: :dgdebug
 --------------------------------------------------------------------------------
 id: 0
 label: START
@@ -34,7 +33,7 @@ peoples will be a long and happy one."
 Thurg roars in fury and begins to choke the life out of you, shouting "NO ELF-
 HUMAN ALLIANCE" again and again.
 
-     *** You have died. ***
+     *** You have died. ***     
 
 Would you like to:
      UNDO the last move,
@@ -56,7 +55,7 @@ in a clear, bell-like tone. "Our alliance is still young, eh?"
 Thurg roars in fury and begins to choke the life out of you, shouting "NO ELF-
 HUMAN ALLIANCE" again and again.
 
-     *** You have died. ***
+     *** You have died. ***     
 
 Would you like to:
      UNDO the last move,
