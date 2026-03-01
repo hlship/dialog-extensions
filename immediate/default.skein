@@ -1,15 +1,16 @@
-engine: :dgdebug
 --------------------------------------------------------------------------------
 id: 0
 label: START
 --------------------------------------------------------------------------------
-
+[1m[36mDialog Interactive Debugger (dgdebug) version 1a/01.[0m[36m
+Type @help at the game prompt for a brief introduction.
+[0m
 
 Portland's a small town, so you never know quite who you are going to run into.
 You're old buddy Ted is waiting for the bus, and you haven't seen him in a
 while--long enough for him to grow some serious facial hair.
 
-Sidewalk
+[0m[1mSidewalk[0m
 Waiting for the bus at the sidewalk outside your office. You see your old friend
 Ted also waiting; you lost track of him a couple of gigs ago. He looks changed,
 though.

@@ -13,4 +13,4 @@
            (println "Testing " dir " ...")
            (shell {:continue true
                    :dir dir}
-                  "dgt test"))}}}
+                  "dgt skein test"))}}}

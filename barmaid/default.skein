@@ -2,7 +2,9 @@
 id: 0
 label: START
 --------------------------------------------------------------------------------
-
+[1m[36mDialog Interactive Debugger (dgdebug) version 1a/01.[0m[36m
+Type @help at the game prompt for a brief introduction.
+[0m
 
 It is a long and riotous evening, full of unlikely stories and tall tales. But
 now, most of the patrons have gone away to their rooms to sleep, or have passed
@@ -11,7 +13,7 @@ stone, snuffling through tiny wet noses, and pawing the air in sleep. Now is the
 time to find out whether the rumors that brought you to this neighborhood are
 true.
 
-The Inn
+[0m[1mThe Inn[0m
 The light is low and red. Above the fireplace hangs a map of this part of the
 Empire, and on the adjacent wall is the crimson and silver banner of Richard the
 Rose. The barmaid works her way from table to table, clearing away dishes and
@@ -56,8 +58,8 @@ parent-id: 1735881156076
 command: undo
 --------------------------------------------------------------------------------
 > undo
-Undoing the last turn (ask barmaid about eternal life).
-The Inn
+[0m[4mUndoing the last turn (ask barmaid about eternal life).
+[0m[0m[1mThe Inn[0m
 
 --------------------------------------------------------------------------------
 id: 1735881156078

@@ -2,9 +2,11 @@
 id: 0
 label: START
 --------------------------------------------------------------------------------
+[1m[36mDialog Interactive Debugger (dgdebug) version 1a/01.[0m[36m
+Type @help at the game prompt for a brief introduction.
+[0m
 
-
-Conference Chamber
+[0m[1mConference Chamber[0m
 A low ceilinged chamber with a scattering of heavy wooden tables, perfect for
 the exchange of information that can shape the course of history. Lavine is
 already seated at the nearest table, and Thurg hovers nearby.
@@ -33,9 +35,9 @@ peoples will be a long and happy one."
 Thurg roars in fury and begins to choke the life out of you, shouting "NO ELF-
 HUMAN ALLIANCE" again and again.
 
-     *** You have died. ***     
-
-Would you like to:
+[0m[1m     *** You have died. ***     
+[0m
+[0m[4mWould you like to:
      UNDO the last move,
      RESTORE a saved position,
      QUIT the program,
@@ -55,9 +57,9 @@ in a clear, bell-like tone. "Our alliance is still young, eh?"
 Thurg roars in fury and begins to choke the life out of you, shouting "NO ELF-
 HUMAN ALLIANCE" again and again.
 
-     *** You have died. ***     
-
-Would you like to:
+[0m[1m     *** You have died. ***     
+[0m
+[0m[4mWould you like to:
      UNDO the last move,
      RESTORE a saved position,
      QUIT the program,

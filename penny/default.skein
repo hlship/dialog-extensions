@@ -2,11 +2,13 @@
 id: 0
 label: START
 --------------------------------------------------------------------------------
-
+[1m[36mDialog Interactive Debugger (dgdebug) version 1a/01.[0m[36m
+Type @help at the game prompt for a brief introduction.
+[0m
 
 Just wait here, we won't be but a minute.
 
-Empty Office
+[0m[1mEmpty Office[0m
 You've been left in this office to stew a bit before they are ready for your
 interview. To say it is bare-bones is an understatement. No windows, or even any
 furniture beyond a single battered table.
@@ -55,7 +57,7 @@ parent-id: 1736104077958
 command: l
 --------------------------------------------------------------------------------
 > l
-Empty Office
+[0m[1mEmpty Office[0m
 You've been left in this office to stew a bit before they are ready for your
 interview. To say it is bare-bones is an understatement. No windows, or even any
 furniture beyond a single battered table. The edges of the floor are lit with a
@@ -96,7 +98,7 @@ parent-id: 1736104077962
 command: l
 --------------------------------------------------------------------------------
 > l
-Empty Office
+[0m[1mEmpty Office[0m
 You've been left in this office to stew a bit before they are ready for your
 interview. To say it is bare-bones is an understatement. No windows, or even any
 furniture beyond a single battered table. The edges of the floor are lit with a
@@ -134,7 +136,7 @@ parent-id: 1736104077965
 command: l
 --------------------------------------------------------------------------------
 > l
-Empty Office
+[0m[1mEmpty Office[0m
 You've been left in this office to stew a bit before they are ready for your
 interview. To say it is bare-bones is an understatement. No windows, or even any
 furniture beyond a single battered table.
@@ -169,7 +171,7 @@ parent-id: 1736104077968
 command: l
 --------------------------------------------------------------------------------
 > l
-Empty Office
+[0m[1mEmpty Office[0m
 You've been left in this office to stew a bit before they are ready for your
 interview. To say it is bare-bones is an understatement. No windows, or even any
 furniture beyond a single battered table. The edges of the floor are lit with a
@@ -205,8 +207,8 @@ The shiny penny falls to the ground.
 
 As the penny hits the floor, you hear a click and a low humming starts. A thin
 red line of illumination appears around the edges of the floor.
-scene #penny-dropped started
-
+[0m[36mscene #penny-dropped started
+[0m
 --------------------------------------------------------------------------------
 id: 1736104759387
 parent-id: 1736104759386
@@ -214,10 +216,10 @@ command: push metronome
 --------------------------------------------------------------------------------
 > push metronome
 You give the metronome a bit of a push.
-scene #penny-dropped in progress
-As expected, the metronome's pendulum starts to swing back and forth.
-scene #the-beat started
-
+[0m[36mscene #penny-dropped in progress
+[0mAs expected, the metronome's pendulum starts to swing back and forth.
+[0m[36mscene #the-beat started
+[0m
 --------------------------------------------------------------------------------
 id: 1736104759388
 parent-id: 1736104759387
@@ -225,9 +227,9 @@ command: z
 --------------------------------------------------------------------------------
 > z
 A moment slips away.
-scene #penny-dropped in progress
+[0m[36mscene #penny-dropped in progress
 scene #the-beat in progress
-
+[0m
 The metronome's pendulum swings to one extreme and there's an audible click.
 
 --------------------------------------------------------------------------------
@@ -240,9 +242,9 @@ You take the shiny penny.
 
 As you pick up the penny, there's another click, and the red illumination
 disappears.
-scene #penny-dropped completed
+[0m[36mscene #penny-dropped completed
 scene #the-beat in progress
-
+[0m
 The metronome's pendulum swings to one extreme and there's an audible click.
 
 --------------------------------------------------------------------------------
@@ -252,8 +254,8 @@ command: z
 --------------------------------------------------------------------------------
 > z
 A moment slips away.
-scene #the-beat in progress
-
+[0m[36mscene #the-beat in progress
+[0m
 The metronome's pendulum swings to one extreme and there's an audible click.
 
 --------------------------------------------------------------------------------
@@ -263,14 +265,14 @@ command: drop penny
 --------------------------------------------------------------------------------
 > drop penny
 The shiny penny falls to the ground.
-scene #the-beat in progress
-
+[0m[36mscene #the-beat in progress
+[0m
 The metronome's pendulum swings to one extreme and there's an audible click.
 
 As the penny hits the floor, you hear a click and a low humming starts. A thin
 red line of illumination appears around the edges of the floor.
-scene #penny-dropped started
-
+[0m[36mscene #penny-dropped started
+[0m
 --------------------------------------------------------------------------------
 id: 1736104759392
 parent-id: 1736104759391
@@ -278,9 +280,9 @@ command: z
 --------------------------------------------------------------------------------
 > z
 A moment slips away.
-scene #penny-dropped in progress
+[0m[36mscene #penny-dropped in progress
 scene #the-beat in progress
-
+[0m
 The metronome's pendulum swings to one extreme and there's an audible click.
 
 --------------------------------------------------------------------------------

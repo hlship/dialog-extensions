@@ -3,19 +3,21 @@ seed: 883716
 id: 0
 label: START
 --------------------------------------------------------------------------------
-
+[1m[36mDialog Interactive Debugger (dgdebug) version 1a/01.[0m[36m
+Type @help at the game prompt for a brief introduction.
+[0m
 
 Well, that was odd. You were just... someplace? And now you're... someplace
 else?
 
-Who Goes There
-An interactive fiction by Howard M. Lewis Ship.
+[0m[1mWho Goes There
+[0mAn interactive fiction by Howard M. Lewis Ship.
 Release 0. Serial number DEBUG.
 Dialog Interactive Debugger (dgdebug) version 1a/01. Library version 1.1.0.
 Debugging extension 1.1.
 Dialog Libs 0.8 by Howard Lewis Ship
 
-Outside The Lamp And The Egg Pub
+[0m[1mOutside The Lamp And The Egg Pub[0m
 You're on a narrow cobblestone path running north and south that threads between
 closely-set, squat stone houses. It's just after sunset, and in the dimness, you
 can make out a number of doors, all closed, and a few windows, all barricaded
@@ -165,7 +167,7 @@ command: take key
 > take key
 You take the small key.
 
-[We try to be kind. If you are in doubt, try exits to list all the directions
+[We try to be [0m[4mkind[0m. If you are in doubt, try exits to list all the directions
 you can move. Well, except for any secret ones!]
 
 --------------------------------------------------------------------------------
@@ -196,7 +198,7 @@ command: e
 > e
 You walk east through the pub door.
 
-Inside the Pub
+[0m[1mInside the Pub[0m
 The pub's interior matches your every expectation. Dark wood, a well polished
 bar, several deep booths. Despite the early hour and chill outside, the pub is
 empty but for the bartender endlessly polishing the bar. Through a low overhang,
@@ -219,7 +221,7 @@ command: w
 > w
 You walk west through the pub door.
 
-Outside The Lamp And The Egg Pub
+[0m[1mOutside The Lamp And The Egg Pub[0m
 You're on a narrow cobblestone path running north and south that threads between
 closely-set, squat stone houses. It's just after sunset, and in the dimness, you
 can make out a number of doors, all closed, and a few windows, all barricaded
@@ -267,7 +269,7 @@ parent-id: 1736385469788
 command: l
 --------------------------------------------------------------------------------
 > l
-Inside the Pub
+[0m[1mInside the Pub[0m
 The pub's interior matches your every expectation. Dark wood, a well polished
 bar, several deep booths. Despite the early hour and chill outside, the pub is
 empty but for the bartender endlessly polishing the bar. Through a low overhang,
@@ -285,7 +287,7 @@ command: w
 > w
 You walk west through the pub door.
 
-Outside The Lamp And The Egg Pub
+[0m[1mOutside The Lamp And The Egg Pub[0m
 You're on a narrow cobblestone path running north and south that threads between
 closely-set, squat stone houses. It's just after sunset, and in the dimness, you
 can make out a number of doors, all closed, and a few windows, all barricaded
@@ -306,7 +308,7 @@ command: e
 > e
 You walk east through the pub door.
 
-Inside the Pub
+[0m[1mInside the Pub[0m
 The pub's interior matches your every expectation. Dark wood, a well polished
 bar, several deep booths. Despite the early hour and chill outside, the pub is
 empty but for the bartender endlessly polishing the bar. Through a low overhang,
@@ -413,7 +415,7 @@ keep an eye on the door. I can hear you fine on a quiet night like this. I'm
 sure we'll have a little more company in here, soon enough." You don't think he
 quite believes it, either.
 
-Game Room
+[0m[1mGame Room[0m
 The main attraction of this room is a huge billiards table, centered in the
 small space. Arrayed around this centerpiece are a few also-rans: a sad little
 dartboard on the far side of the table from the rest of the pub, and a strange
@@ -646,14 +648,13 @@ appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403473
-label: conversation: no machine
 parent-id: 1770696654129
 command: talk to bartender
 --------------------------------------------------------------------------------
 > talk to bartender
 You catch the bartender's eye, and he's eager to engage with his only customer.
-conv: #bartender discussable quips [#where-everyone-is]
-
+[0m[36mconv: #bartender discussable quips [#where-everyone-is]
+[0m
 You can make out a muffled, electronic whine, coming from above you, past the
 ceiling.
 
@@ -836,7 +837,7 @@ keep an eye on the door. I can hear you fine on a quiet night like this. I'm
 sure we'll have a little more company in here, soon enough." You don't think he
 quite believes it, either.
 
-Game Room
+[0m[1mGame Room[0m
 The main attraction of this room is a huge billiards table, centered in the
 small space. Arrayed around this centerpiece are a few also-rans: a sad little
 dartboard on the far side of the table from the rest of the pub, and a strange
@@ -875,7 +876,7 @@ command: s
 > s
 You again duck under the low beam, back into the pub proper.
 
-Inside the Pub
+[0m[1mInside the Pub[0m
 The pub's interior matches your every expectation. Dark wood, a well polished
 bar, several deep booths. Despite the early hour and chill outside, the pub is
 empty but for the bartender endlessly polishing the bar. Through a low overhang,

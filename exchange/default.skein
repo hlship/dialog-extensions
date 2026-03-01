@@ -2,12 +2,14 @@
 id: 0
 label: START
 --------------------------------------------------------------------------------
-
+[1m[36mDialog Interactive Debugger (dgdebug) version 1a/01.[0m[36m
+Type @help at the game prompt for a brief introduction.
+[0m
 
 Another miserable night in the London fog and rain. You have the package, and
 Malory is your contact... but can he be trusted?
 
-Foggy Alley
+[0m[1mFoggy Alley[0m
 You would be hard pressed to find a more cliche location for the drop off than
 this deserted alley. Fog billows in from somewhere, and a lone lamppost sheds
 minimal light. The sounds of bustling London are distant.
@@ -289,10 +291,10 @@ You hand the briefcase to Malory and catch a look of something--greed? relief?
 annoyance?--in his eyes. He disappears down the alley and is lost immediately in
 the fog.
 
-     *** The package has been delivered. Whether that's a triumph or a failure
+[0m[1m     *** The package has been delivered. Whether that's a triumph or a failure
 will be known soon. ***     
-
-Would you like to:
+[0m
+[0m[4mWould you like to:
      UNDO the last move,
      RESTORE a saved position,
      QUIT the program,
