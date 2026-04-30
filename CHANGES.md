@@ -1,4 +1,4 @@
-# 0.8 -- UNRELEASED
+# 0.8 -- 30 Apr 2026
 
 - Renamed repository to 'dialog-libs' since its not just about threaded conversation anymore
 - Split out debug code into several smaller libraries
