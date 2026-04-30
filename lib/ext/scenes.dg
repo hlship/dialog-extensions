@@ -23,11 +23,6 @@
 %% to see if it should start).
 %% Scenes with the (recurring $) trait can start again even once completed.
 
-%% The predicate (scene debugging enabled) will enable debug output as scenes are started, completed, or 'ticked'.
-
-(scene debugging enabled)
-    (fail)
-
 (start $) (fail)
 (scene $) (fail)
 (complete $) (fail)
@@ -47,10 +42,6 @@
         *(scene $Scene)
         ($Scene in progress)
         (complete $Scene)
-        (if) (scene debugging enabled)
-        (then)
-            (log) { scene $Scene completed }
-        (endif)
         (now) ~($Scene in progress)
         %% The scene has completed, at least once
         (now) ($Scene has completed)
@@ -60,10 +51,6 @@
     (exhaust) {
         *(scene $Scene)
         ($Scene in progress)
-        (if) (scene debugging enabled)
-        (then)
-             (log) { scene $Scene in progress }
-        (endif)
         (exhaust) *(on every tick during $Scene)
     }
 
@@ -72,10 +59,6 @@
         *(scene $Scene)
         (ready to start scene $Scene)
         (start $Scene)
-        (if) (scene debugging enabled)
-        (then)
-          (log) { scene $Scene started }
-        (endif)
         (now) ($Scene in progress)
         %% The scene has started, at least once.
         %% Important for recurring scenes.

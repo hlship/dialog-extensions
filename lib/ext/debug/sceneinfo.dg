@@ -1,17 +1,5 @@
 %% dependencies: annotations.dg
 
-%% Enable or disable debugging of scenes
-
-(understand command [debug scenes])
-(perform [debug scenes])
-    Scene debugging enabled.
-    (now) (scene debugging enabled)
-
-(understand command [debug scenes off])
-(perform [debug scenes off])
-    Scene debugging disabled.
-    (now) ~(scene debugging enabled)
-
 (understand command [sceneinfo])
 
 (perform [sceneinfo])

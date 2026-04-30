@@ -153,7 +153,8 @@ The triggering rule for this scene is quite simple, and you could imagine scatte
 check in several places, to adjust the room description.  In a real project, the rules for starting
 a scene may be much more complicated, so the query `($ in progress)` is both more accurate and more concise.
 
-In fact, you might have scenes that only start when other scenes are completed, `($ has completed)` or even in progress `($ in progress)`.
+In fact, you might have scenes that only start when other scenes are completed, `($ has completed)`,
+or even when another scene is in progress, `($ in progress)`.
 
 By design, there isn't a way to directly start a scene: you must provide necessary preconditions that
 can be checked inside `(start $)`.  However, those can be as simple as a property of an object:
@@ -192,57 +193,3 @@ The `sceneinfo` command prints the state of all scenes:
 
 >
 ```
-
-In addition, the `debug scenes` command will enable scene debugging.
-When scene debugging is enabled, a `(log)` will be made of each scene that completes,
-in progress, or started.
-
-```
-Just wait here, we won't be but a minute.
-
-Empty Office
-You've been left in this office to stew a bit before they are ready for your
-interview. To say it is bare-bones is an understatement. No windows, or even any
-furniture beyond a single battered table.
-
-> debug scenes
-Scene debugging enabled.
-
-> take penny
-You take the shiny penny off the table.
-
-> drop it
-The shiny penny falls to the ground.
-
-As the penny hits the floor, you hear a click and a low humming starts. A thin
-red line of illumination appears around the edges of the floor.
-scene #penny-dropped started
-
-> push metronome
-You give the metronome a bit of a push.
-scene #penny-dropped in progress
-As expected, the metronome's pendulum starts to swing back and forth.
-scene #the-beat started
-
-> z
-A moment slips away.
-scene #penny-dropped in progress
-scene #the-beat in progress
-
-The metronome's pendulum swings to one extreme and there's an audible click.
-
-> take penny
-You take the shiny penny.
-
-As you pick up the penny, there's another click, and the red illumination
-disappears.
-scene #penny-dropped completed
-scene #the-beat in progress
-
-The metronome's pendulum swings to one extreme and there's an audible click.
-
-> 
-```
-
-The `debug scenes off` command turns scene debugging back off.
-
