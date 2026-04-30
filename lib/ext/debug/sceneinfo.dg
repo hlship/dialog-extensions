@@ -16,5 +16,5 @@
 
 (annotate (recurring $) with @recurring)
 (annotate ($ has started) with [has started])
-(annotate ($ in progress) with [in progress])
+(annotate ($ has duration $Duration) with [in progress for $Duration])
 (annotate ($ has completed) with [has completed])

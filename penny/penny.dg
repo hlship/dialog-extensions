@@ -77,4 +77,10 @@
 (on every tick during *)
     (par)
     The metronome's pendulum swings to one extreme and there's an audible click.
+(complete *)
+    (* has duration 4)
+    (par)
+    The metronome's pendulum swings to a stop.
+    (now) ~(#metronome is active)
+
 

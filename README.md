@@ -1,7 +1,7 @@
 # Dialog Extensions
 
 This repository is a collection of small extension libraries for use with the
-[Dialog](https://linusakesson.net/dialog/index.php) interactive fiction language.
+[Dialog](https://github.com/Dialog-IF/dialog) interactive fiction language.
 
 - [Threaded Conversation](docs/conversation.md) - make NPCs more interactive with complex conversations
 - [Scenes](docs/scenes.md)  - organize game logic
@@ -19,7 +19,6 @@ a subset of the libraries in this repository, reference the comment as a guide t
 include.
 
 Currently, only some of the debug libraries depend on the `lib/ext/debug/annotations.dg` library.
-
 
 # License
 

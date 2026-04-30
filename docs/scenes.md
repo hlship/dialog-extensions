@@ -54,6 +54,34 @@ The order is:
 - `($ has started)` succeeds if the scene has been started at least once
 - `($ in progress)` succeeds if the scene is currently in progress
 - `($ has completed)` succeeds if the scene has ever completed
+- `($ has duration $)` succeeds only for in progress scenes
+
+# Scene Durations
+
+When a scene is started, the object variable `($ has duration $)` is set to 0.  This duration value
+is incremented on each successive tick, just before `(complete $)` is queried.
+
+The duration is removed when the scene completes, even if the scene is recurring.  In fact,
+`($ is progress)` is defined in terms of `($ has duration $)`.
+
+A scene with a fixed duration could be implemented as:
+
+```
+#train-arrival
+(scene *)
+(start *)
+    (#player is #in #train-station)
+    The Flying Scotsman pulls up at the platform, to a billow of steam and hammering.
+    (now) (#flying-scotsman is #in #train-station)
+(complete *)
+    (* has duration 5)
+    (if) (player can see #flying-scotsman)
+    (then) 
+        The Flying Scotsman inches away, with a squeal of released brakes, gathering speed invincibly until it disappears around the hill. All is abruptly still once more.
+    (endif)
+    (now) (#flying-scotsman is nowhere)    
+```
+
 
 # Example
 
@@ -178,18 +206,22 @@ can be checked inside `(start $)`.  However, those can be as simple as a propert
 (on every tick during *)
     (par)
     The metronome's pendulum swings to one extreme and there's an audible click.
+(complete *)
+    (* has duration 4)
+    (par)
+    The metronome's pendulum swings to a stop.
+    (now) ~(#metronome is active)    
 ```
 
 # Debugging Scenes
 
-The `lib/ext/debug/sceneinfo.dg` library contains three debugging commands.
-
-The `sceneinfo` command prints the state of all scenes:
+The `lib/ext/debug/sceneinfo.dg` library adds 
+the `sceneinfo` debugging command, which prints the state of all scenes:
 
 ```
 > sceneinfo
 #penny-dropped (recurring, has started, has completed)
-#the-beat (has started, in progress)
+#the-beat (has started, in progress for 2)
 
 >
 ```

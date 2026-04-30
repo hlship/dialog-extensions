@@ -71,7 +71,7 @@ parent-id: 1736104077959
 command: sceneinfo
 --------------------------------------------------------------------------------
 > sceneinfo
-#penny-dropped (recurring, has started, in progress)
+#penny-dropped (recurring, has started, in progress for 1)
 #the-beat
 
 --------------------------------------------------------------------------------
@@ -114,8 +114,8 @@ parent-id: 1736104077963
 command: sceneinfo
 --------------------------------------------------------------------------------
 > sceneinfo
-#penny-dropped (recurring, has started, in progress)
-#the-beat (has started, in progress)
+#penny-dropped (recurring, has started, in progress for 4)
+#the-beat (has started, in progress for 1)
 
 --------------------------------------------------------------------------------
 id: 1736104077965
@@ -150,7 +150,7 @@ command: sceneinfo
 --------------------------------------------------------------------------------
 > sceneinfo
 #penny-dropped (recurring, has started, has completed)
-#the-beat (has started, in progress)
+#the-beat (has started, in progress for 3)
 
 --------------------------------------------------------------------------------
 id: 1736104077968
@@ -160,7 +160,7 @@ command: drop penny
 > drop penny
 The shiny penny falls to the ground.
 
-The metronome's pendulum swings to one extreme and there's an audible click.
+The metronome's pendulum swings to a stop.
 
 As the penny hits the floor, you hear a click and a low humming starts. A thin
 red line of illumination appears around the edges of the floor.
@@ -178,6 +178,4 @@ furniture beyond a single battered table. The edges of the floor are lit with a
 dim red light, and you can hear a low hum.
 
 You see a shiny penny here.
-
-The metronome's pendulum swings to one extreme and there's an audible click.
 

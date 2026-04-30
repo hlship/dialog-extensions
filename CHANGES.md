@@ -3,6 +3,7 @@
 - Renamed repository to 'dialog-libs' since its not just about threaded conversation anymore
 - Split out debug code into several smaller libraries
 - Added the scenes library
+- Added the tutorial-mode library
 - Split up the documentation
 - Threaded Conversation
   - Added `(queue postponed $<Quip)`

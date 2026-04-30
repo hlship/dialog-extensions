@@ -48,6 +48,7 @@
     %% should mark the quip as ignored, or provide a command name to the quip.
     (suggest command [$Quip]), and the game will figure out that it's part of the ongoing conversation.
 (* is performed by [perform quip $])
-(after performance suggest  *)    After each exchange, you are provided with a list of other things you might say
-    to continue the conversation \(if there are any\). There may also be further topics you can discuss, however, that
-    are not suggested for puzzle or narrative reasons.
+(after performance suggest *)   
+    After each exchange, you are provided with a list of other things you might say
+    to continue the conversation \(if there are any\). There may also be further topics you can discuss,
+    however, that are not suggested for puzzle or narrative reasons.

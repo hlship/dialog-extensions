@@ -3,8 +3,8 @@
 A common complaint about interactive fiction, for people who didn't grow up with Zork
 (or Curses), is that new players don't even know where to begin.
 
-Tutorial mode (inspired by an Inform 7 extension) watches over the player and gives them
-ideas about what they can do.  Tutorial mode automatically adapts to the world of the
+Tutorial mode (inspired by an Inform 7 extension) watches over the player's interactions
+and gives them ideas about what they can do.  Tutorial mode automatically adapts to the world of the
 game it is included in.
 
 Tutorial mode is available in the library `lib/ext/tutorial-mode.dg`.
@@ -25,7 +25,7 @@ An interactive fiction by Howard M. Lewis Ship.
 Release 0. Serial number DEBUG.
 Dialog Interactive Debugger (dgdebug) version 0m/03. Library version 0.46.
 Debugging extension 1.1.
-Dialog Libs 0.8 by Howard Lewis Ship
+Dialog extensions 0.8 by Howard Lewis Ship
 
 Outside The Lamp And The Egg Pub
 You're on a narrow cobblestone path that threads between closely-set, squat
