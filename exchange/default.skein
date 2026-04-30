@@ -298,7 +298,7 @@ will be known soon. ***
      UNDO the last move,
      RESTORE a saved position,
      QUIT the program,
-     or RESTART from the beginning?
+     or RESTART from the beginning?[0m
 --------------------------------------------------------------------------------
 id: 1736025615707
 parent-id: 1735881651539
