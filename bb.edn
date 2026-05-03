@@ -1,16 +1,41 @@
-{:tasks
- {test
-  {:doc "Run all tests"
-   :task (doseq [dir ["barmaid"
-                      "conferences"
-                      "exchange"
-                      "immediate"
-                      "quest"
-                      "tree"
-                      "wanderer"
-                      "penny" 
-                      "who"]]
-           (println "Testing " dir " ...")
-           (shell {:continue true
-                   :dir dir}
-                  "dgt skein test"))}}}
+{:paths ["release"]
+ :deps  {babashka/process       {:mvn/version "0.6.25"}
+         babashka/fs            {:mvn/version "0.5.32"}
+         org.clj-commons/pretty {:mvn/version "3.8.0"}}
+ :tasks
+ {:requires ([babashka.process :as p]
+             [babashka.fs :as fs]
+             [clojure.string :as string]
+             [clj-commons.ansi :refer [pout]]
+             [release :as r :refer [sh]])
+  package   (r/package "test")
+  release   (let [tag         (sh {:out :string} "git describe --tags --abbrev=0")
+                  zip-file    (r/package tag)
+                  sha         (r/sha256 zip-file)
+                  create-opts (cond-> ["--verify-tag" "--generate-notes"]
+                                (string/includes? tag "alpha")
+                                (conj "--prerelease"))]
+              (apply sh "gh release create" tag create-opts)
+              (sh "gh release upload --clobber" tag zip-file)
+              (println)
+              (pout "Release URL: "
+                    [:bold
+                     "https://github.com/hlship/dexter/releases/tag/" tag])
+              (pout "  Asset URL: "
+                    [:bold "https://github.com/hlship/dexter/releases/download/"
+                     tag "/" (fs/file-name zip-file)])
+              (pout "     SHA256: " [:bold sha]))
+  test      {:doc  "Run all tests"
+             :task (doseq [dir ["barmaid"
+                                "conferences"
+                                "exchange"
+                                "immediate"
+                                "quest"
+                                "tree"
+                                "wanderer"
+                                "penny" 
+                                "who"]]
+                     (pout "Testing " [:bold dir] " ...")
+                     (shell {:continue true
+                             :dir      dir}
+                            "dgt skein test"))}}}
