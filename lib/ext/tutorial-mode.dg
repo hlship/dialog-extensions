@@ -5,15 +5,19 @@
     (narrate tutorial disabled)
 
 (narrate tutorial disabled)
-    Tutorial mode has been turned off; you can re-enable tutorials with 
-    (suggest command [tutorial on]).
+    (tutorial output {
+        Tutorial mode has been turned off; you can re-enable tutorials with 
+        (suggest command [tutorial on]).
+    })
 
 (understand command [tutorial on])
 
 (perform [tutorial on])
     (now) (tutorial mode enabled)
-    Tutorial mode has been turned on; you can turn it off with 
-    (suggest command [tutorial off]).
+    (tutorial output {
+        Tutorial mode has been turned on; you can turn it off with 
+        (suggest command [tutorial off]).
+    })
     %% This is a command, no tick, but it's nice to see a suggestion pop up immediately
     %% (if any are applicable).
     (make tutorial suggestion)
@@ -26,16 +30,28 @@
 (late on every tick)
     (now) ~(suggestion $ was just performed)
 
+(style class @tutorial)
+  font-style: italic;
+
+%% Produces unwanted trailing spaces in dgdebug
+(style class @suggestion)
+  font-weight: bold;
+
+(tutorial output $Closure)
+  (par)
+  (span @tutorial) {
+    \[ (query $Closure) \]
+  }
+
 (make suggestion after performance)
     (suggestion $Suggestion was just performed)
-    %% This is clumsy, but keeps each narrate after from having to supply the (par)
-    %% and brackets.
+    %% It's inefficient to run this just to see if there's any result, 
+    %% but haven't found a better approach.
     (collect words)
        (after performance suggest $Suggestion)
     (into $Output)
     ~(empty $Output)
-    (par)
-    \[ (after performance suggest $Suggestion) \]
+    (tutorial output { (after performance suggest $Suggestion) })
 
 (interface (enable tutorial mode))
 
@@ -44,12 +60,15 @@
     (tutorial intro)
 
 (tutorial intro)
-    (par)
-    \[
-    This game has a built-in tutorial mode for players new to interactive fiction;
-    it suggests common commands that you can try.  You can turn this off with
-    (suggest command [tutorial off])
-    or back on with (suggest command [tutorial on]). \]
+    (tutorial output {
+      This game has a built-in tutorial mode for players new to interactive fiction;
+      it suggests common commands that you can use to get started.  
+      
+      (par)
+      You can turn this off with
+      (suggest command [tutorial off])
+      or back on with (suggest command [tutorial on]).
+    })
 
 (interface (can perform $<Suggestion with $>Operand))
 (interface (after performance suggest $<Suggestion))
@@ -58,17 +77,21 @@
 
 (suggest command $Action)
     (library links enabled)
-    (span @bold) {
+    (span @suggestion) {
         (link) (print suggested command $Action)
     }
 
 (suggest command $Action)
     (print suggested command $Action)
 
+%% In dgdebug (but not frotz, or the web) the span results in a space after the last word
+%% that seems immune to (no space).
 (print suggested command $Action)
-    (exhaust) {
-        *($Word is one of $Action)
-        (command word $Word)
+    (span @suggestion) {
+        (exhaust) {
+          *($Word is one of $Action)
+          (command word $Word)
+        }
     }
 
 (make tutorial suggestion)
@@ -76,8 +99,9 @@
     ~($Suggestion has been performed)
     ~($Suggestion has been suggested)
     (can perform $Suggestion with $Operand)
-    (par)
-    \[(suggest $Suggestion with $Operand)\]
+    (tutorial output {
+      (suggest $Suggestion with $Operand)
+    })
     (now) ($Suggestion has been suggested)
 
 (global variable (suggestion $ was just performed))

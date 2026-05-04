@@ -17,28 +17,32 @@ This is an example from the tutorial mode test suite, the first few moves of a g
 under development:
 
 ```
-Well, that was odd. Your were just... someplace? And now you're... someplace
+Well, that was odd. You were just... someplace? And now you're... someplace
 else?
 
 Who Goes There
 An interactive fiction by Howard M. Lewis Ship.
 Release 0. Serial number DEBUG.
-Dialog Interactive Debugger (dgdebug) version 0m/03. Library version 0.46.
+Dialog Interactive Debugger (dgdebug) version 1a/01. Library version 1.1.0.
 Debugging extension 1.1.
 Dialog extensions 0.8 by Howard Lewis Ship
 
 Outside The Lamp And The Egg Pub
-You're on a narrow cobblestone path that threads between closely-set, squat
-stone houses. It's just after sunset and, and in the dimness, you can make out a
-number of doors, all closed, and a few windows, all barricaded behind sturdy
-shutters.
+You're on a narrow cobblestone path running north and south that threads
+between closely-set, squat stone houses. It's just after sunset, and in the
+dimness, you can make out a number of doors, all closed, and a few windows, all
+barricaded behind sturdy shutters.
 
-The exception is the pub itself; through the somewhat dusty panes of the window
-you can make out a hint of light and movement.
+The exception is the pub on the east side of the path; under a rather involved
+bit of signage is quite the formidable door. Through the somewhat dusty panes
+of the flanking windows you can make out a hint of light and movement.
+
+The coolness following the setting sun has caused a light mist to form.
 
 [This game has a built-in tutorial mode for players new to interactive fiction;
-it suggests common commands that you can try. You can turn this off with 
-tutorial off or back on with tutorial on.]
+it suggests common commands that you can use to get started.
+
+You can turn this off with tutorial off or back on with tutorial on .]
 
 > i
 You have a small key. You're wearing your grey trousers and your frilly jacket.
@@ -63,8 +67,10 @@ and somewhat long face.
 >
 ```
 
-The text is brackets are the tutorial suggestions; during play, the suggested commands are
-in bold font.
+>[!NOTE]
+> The text in square brackets are the tutorial suggestions; during play, the suggestions are italicized,
+> with any suggested commands in bold.  The frotz command and the Dialog debugger (and, thus, the Skein)
+> represents italic text as underlined text.
 
 ## Enabling Tutorial Mode
 
@@ -114,6 +120,11 @@ For example, the tutorial suggestion for the inventory command:
 Since you can _always_ perform inventory, the $Operand is bound to an empty list (as a placeholder) and ignored.
 
 Note the use of `(suggest command $Action)`, which takes care of formatting the command in bold.
+
+>[!WARNING]
+> Only in the debugger (and, thus, the normal Skein), an unbreakable space occurs after
+> each suggested command. This does not occur in frotz, the web player, or Spatterlight, and is likely a bug
+> in dgdebug.
 
 The `($ is performed by $)` predicate allows tutorial mode to identify when the suggestion has been carried out;
 this prevents tutorial mode from suggesting things the player has already demonstrated.
@@ -215,7 +226,7 @@ Once tutorial mode has printed a suggestion, it will set `($ has been suggested)
 When it recognizes that the player has performed a suggestion (even if tutorial mode did not get a chance to suggest it), 
 then `($ has been performed)` will be set.  
 
-It may make sense for a suggestion's `(can perform $ with $)` to include guards that check if
+It may make sense for a suggestion's `(can perform $ with $)` rule to include guards that check if
 other suggestions have or have not been suggested or performed.
 
 For example:

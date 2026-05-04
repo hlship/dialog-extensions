@@ -29,9 +29,10 @@ the flanking windows you can make out a hint of light and movement.
 
 The coolness following the setting sun has caused a light mist to form.
 
-[This game has a built-in tutorial mode for players new to interactive fiction;
-it suggests common commands that you can try. You can turn this off with
-tutorial off or back on with tutorial on.]
+[0m[4m[This game has a built-in tutorial mode for players new to interactive fiction;
+it suggests common commands that you can use to get started.
+
+You can turn this off with [0m[1mtutorial off[0m [0m[4mor back on with [0m[1mtutorial on[0m [0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469771
@@ -39,7 +40,9 @@ parent-id: 0
 command: tutorial off
 --------------------------------------------------------------------------------
 > tutorial off
-Tutorial mode has been turned off; you can re-enable tutorials with tutorial on.
+
+[0m[4m[Tutorial mode has been turned off; you can re-enable tutorials with [0m[1mtutorial on[0m
+[0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469772
@@ -48,9 +51,10 @@ parent-id: 1736385469777
 command: tutorial on
 --------------------------------------------------------------------------------
 > tutorial on
-Tutorial mode has been turned on; you can turn it off with tutorial off.
 
-[Try inventory (or just i) to see what you are carrying.]
+[0m[4m[Tutorial mode has been turned on; you can turn it off with [0m[1mtutorial off[0m [0m[4m.][0m
+
+[0m[4m[Try [0m[1minventory[0m [0m[4m(or just [0m[1mi[0m [0m[4m) to see what you are carrying.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469774
@@ -60,8 +64,8 @@ command: i
 > i
 You have a small key. You're wearing your grey trousers and your frilly jacket.
 
-[Often, there will be interesting objects nearby; you can get more information
-about them by examining them; try examine door (or just x door).]
+[0m[4m[Often, there will be interesting objects nearby; you can get more information
+about them by examining them; try [0m[1mexamine door[0m [0m[4m(or just [0m[1mx door[0m [0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469775
@@ -72,8 +76,8 @@ command: x door
 The door is fashioned from heavy wood darkened by time and use, with impressive
 brass fittings.
 
-[You are present as part of this world too. Try look at me or l self to get an
-idea of who you are.]
+[0m[4m[You are present as part of this world too. Try [0m[1mlook at me[0m [0m[4mor [0m[1ml self[0m [0m[4mto get an
+idea of who you are.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469776
@@ -128,7 +132,7 @@ You glance down down with the odd feeling that you'll be surprised by what you
 see. You are a tall, lean figure, with a shock of white hair over a clean-shaven
 and somewhat long face.
 
-[You are carrying a small key; you can leave it here with drop key.]
+[0m[4m[You are carrying a small key; you can leave it here with [0m[1mdrop key[0m [0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469780
@@ -138,7 +142,7 @@ command: drop key
 > drop key
 The small key falls to the ground.
 
-[A small key is nearby. You could take key to pick it up.]
+[0m[4m[A small key is nearby. You could [0m[1mtake key[0m [0m[4mto pick it up.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469781
@@ -149,15 +153,15 @@ command: drop trousers
 (first attempting to remove your grey trousers)
 That sounds somewhat unseemly.
 
-[The world consists of distinct locations you can visit. You started in Outside
-The Lamp And The Egg Pub, but could go east (or just east) to move to a
+[0m[4m[The world consists of distinct locations you can visit. You are currently in
+Outside The Lamp And The Egg Pub, but could [0m[1mgo east[0m [0m[4m(or just [0m[1meast[0m [0m[4m) to move to a
 different location.
 
-Direction names include the eight cardinal directions (north, northeast, east,
-etc.) as well as up, down, in, and out.
+Direction names include the eight cardinal directions ([0m[1mnorth[0m [0m[4m, [0m[1mnortheast[0m [0m[4m, [0m[1meast[0m
+[0m[4m, etc.) as well as [0m[1mup[0m [0m[4m, [0m[1mdown[0m [0m[4m, [0m[1min[0m [0m[4m, and [0m[1mout[0m [0m[4m.
 
-Finally, you can abbreviate most directions: n for north, ne for northeast, and
-so forth.]
+Finally, you can abbreviate most directions: [0m[1mn[0m [0m[4mfor [0m[1mnorth[0m [0m[4m, [0m[1mne[0m [0m[4mfor [0m[1mnortheast[0m [0m[4m,
+and so forth.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469783
@@ -167,8 +171,8 @@ command: take key
 > take key
 You take the small key.
 
-[We try to be [0m[4mkind[0m. If you are in doubt, try exits to list all the directions
-you can move. Well, except for any secret ones!]
+[0m[4m[We try to be kind; if you are in doubt, try [0m[1mexits[0m [0m[4mto list all the directions
+you can move. Well, except for any secret ones!][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469785
@@ -208,10 +212,10 @@ from the room to the north.
 The bartender glances up and gives you a welcoming nod before returning to his
 polishing efforts.
 
-[The world is not on a perfect grid; sometimes you go east, and return to where
+[0m[4m[The world is not on a perfect grid; sometimes you go east, and return to where
 you started by going south (not west). Sometimes a direction is a one-way trip,
 and you have to find an entirely different route back to where you started, if
-that is even possible.]
+that is even possible.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469790
@@ -243,8 +247,8 @@ Younger than you'd think, he wears a lightly stained apron, and has rolled up
 the sleeves of his button-down shirt. He never seems to stop moving, even though
 he also seems rooted in place.
 
-[There are other characters about, such as the Bartender. We can strike up a
-conversation with them, with talk to bartender (or hello bartender).]
+[0m[4m[There are other characters about, such as the Bartender. We can strike up a
+conversation with them, with [0m[1mtalk to bartender[0m [0m[4m(or [0m[1mhello bartender[0m [0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469792
@@ -276,8 +280,8 @@ empty but for the bartender endlessly polishing the bar. Through a low overhang,
 an ancient and likely structural wooden beam, you can see a few flashing lights
 from the room to the north.
 
-[There are other characters about, such as the Bartender. We can strike up a
-conversation with them, with talk to bartender (or hello bartender).]
+[0m[4m[There are other characters about, such as the Bartender. We can strike up a
+conversation with them, with [0m[1mtalk to bartender[0m [0m[4m(or [0m[1mhello bartender[0m [0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469797
@@ -352,16 +356,16 @@ You catch the bartender's eye, and he's eager to engage with his only customer.
 
 You could ask where everyone is.
 
-[Conversations take the form of connect series of questions or statements
+[0m[4m[Conversations take the form of connect series of questions or statements
 between you and another character in the world
 
-Here you could ask bartender where everyone is, or (because you are already
-talking to the Bartender) you don't have to mention their name, and can just ask
-where everyone is.
+Here you could [0m[1mask bartender where everyone is[0m [0m[4m, or (because you are already
+talking to the Bartender) you don't have to mention their name, and can just [0m[1mask
+where everyone is[0m [0m[4m.
 
-In fact, you can just type some or all of the words in the suggested topic,
-everyone, and the game will figure out that it's part of the ongoing
-conversation.]
+In fact, you can just type some or all of the words in the suggested topic, 
+[0m[1meveryone[0m [0m[4m, and the game will figure out that it's part of the ongoing
+conversation.][0m
 
 --------------------------------------------------------------------------------
 id: 1736571515920
@@ -376,10 +380,10 @@ it?"
 too long, I say. But it's not like folks are going to go all dry, is it?" He
 thinks for a moment. "Things will pick up, soon enough; they have to."
 
-[After each exchange, you are provided with a list of other things you might say
+[0m[4m[After each exchange, you are provided with a list of other things you might say
 to continue the conversation (if there are any). There may also be further
 topics you can discuss, however, that are not suggested for puzzle or narrative
-reasons.]
+reasons.][0m
 
 --------------------------------------------------------------------------------
 id: 1736577052091
@@ -430,8 +434,8 @@ machine.
 You could ask where everyone is, say that the machine is quite noisy, or say no
 need to shout.
 
-[Some objects, such as the billiards table, are big enough for you to stand on.
-Try climb table.]
+[0m[4m[Some objects, such as the billiards table, are big enough for you to stand on.
+Try [0m[1mclimb table[0m [0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736659403440
@@ -686,16 +690,16 @@ You catch the bartender's eye, and he's eager to engage with his only customer.
 
 You could ask where everyone is.
 
-[Conversations take the form of connect series of questions or statements
+[0m[4m[Conversations take the form of connect series of questions or statements
 between you and another character in the world
 
-Here you could ask bartender where everyone is, or (because you are already
-talking to the Bartender) you don't have to mention their name, and can just ask
-where everyone is.
+Here you could [0m[1mask bartender where everyone is[0m [0m[4m, or (because you are already
+talking to the Bartender) you don't have to mention their name, and can just [0m[1mask
+where everyone is[0m [0m[4m.
 
-In fact, you can just type some or all of the words in the suggested topic,
-everyone, and the game will figure out that it's part of the ongoing
-conversation.]
+In fact, you can just type some or all of the words in the suggested topic, 
+[0m[1meveryone[0m [0m[4m, and the game will figure out that it's part of the ongoing
+conversation.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647600
@@ -711,10 +715,10 @@ His face reveals a mixture of annoyance and relief.
 The little machine plays a short cascade of notes, desperately trying to get
 your attention.
 
-[After each exchange, you are provided with a list of other things you might say
+[0m[4m[After each exchange, you are provided with a list of other things you might say
 to continue the conversation (if there are any). There may also be further
 topics you can discuss, however, that are not suggested for puzzle or narrative
-reasons.]
+reasons.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647601
@@ -730,10 +734,10 @@ His face reveals a mixture of annoyance and relief.
 The gambling machine plays a triumpant fanfare, all buzzy electronic trumpets,
 then makes a sound like a bucketful of coins spilling into its tray.
 
-[After each exchange, you are provided with a list of other things you might say
+[0m[4m[After each exchange, you are provided with a list of other things you might say
 to continue the conversation (if there are any). There may also be further
 topics you can discuss, however, that are not suggested for puzzle or narrative
-reasons.]
+reasons.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647602
@@ -851,8 +855,8 @@ machine.
 
 You could say that the machine is quite noisy or say no need to shout.
 
-[Some objects, such as the billiards table, are big enough for you to stand on.
-Try climb table.]
+[0m[4m[Some objects, such as the billiards table, are big enough for you to stand on.
+Try [0m[1mclimb table[0m [0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647610
