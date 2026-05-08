@@ -8,6 +8,9 @@ This repository is a collection of small extension libraries for use with the
 - [Tutorial Mode](docs/tutorial-mode.md) - give new players some help
 - [roominfo command](docs/roominfo.md) - concise, hierarchical description of current room (for debugging)
 
+# Compatibility
+
+These extensions are tested against Dialog **1b01-1.2.0**.
 
 # Distribution
 

@@ -3,7 +3,7 @@ seed: 883716
 id: 0
 label: START
 --------------------------------------------------------------------------------
-[1m[36mDialog Interactive Debugger (dgdebug) version 1a/01.[0m[36m
+[1m[36mDialog Interactive Debugger (dgdebug) version 1b/01.[0m[36m
 Type @help at the game prompt for a brief introduction.
 [0m
 
@@ -13,7 +13,7 @@ else?
 [0m[1mWho Goes There
 [0mAn interactive fiction by Howard M. Lewis Ship.
 Release 0. Serial number DEBUG.
-Dialog Interactive Debugger (dgdebug) version 1a/01. Library version 1.1.0.
+Dialog Interactive Debugger (dgdebug) version 1b/01. Library version 1.2.0.
 Debugging extension 1.1.
 Dialog extensions 0.8 by Howard Lewis Ship
 
@@ -32,7 +32,7 @@ The coolness following the setting sun has caused a light mist to form.
 [0m[4m[This game has a built-in tutorial mode for players new to interactive fiction;
 it suggests common commands that you can use to get started.
 
-You can turn this off with [0m[1mtutorial off[0m [0m[4mor back on with [0m[1mtutorial on[0m [0m[4m.][0m
+You can turn this off with [0m[1m[4mtutorial off[0m[4m or back on with [0m[1m[4mtutorial on[0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469771
@@ -41,7 +41,7 @@ command: tutorial off
 --------------------------------------------------------------------------------
 > tutorial off
 
-[0m[4m[Tutorial mode has been turned off; you can re-enable tutorials with [0m[1mtutorial on[0m
+[0m[4m[Tutorial mode has been turned off; you can re-enable tutorials with [0m[1m[4mtutorial on
 [0m[4m.][0m
 
 --------------------------------------------------------------------------------
@@ -52,9 +52,9 @@ command: tutorial on
 --------------------------------------------------------------------------------
 > tutorial on
 
-[0m[4m[Tutorial mode has been turned on; you can turn it off with [0m[1mtutorial off[0m [0m[4m.][0m
+[0m[4m[Tutorial mode has been turned on; you can turn it off with [0m[1m[4mtutorial off[0m[4m.][0m
 
-[0m[4m[Try [0m[1minventory[0m [0m[4m(or just [0m[1mi[0m [0m[4m) to see what you are carrying.][0m
+[0m[4m[Try [0m[1m[4minventory[0m[4m (or just [0m[1m[4mi[0m[4m) to see what you are carrying.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469774
@@ -65,7 +65,7 @@ command: i
 You have a small key. You're wearing your grey trousers and your frilly jacket.
 
 [0m[4m[Often, there will be interesting objects nearby; you can get more information
-about them by examining them; try [0m[1mexamine door[0m [0m[4m(or just [0m[1mx door[0m [0m[4m).][0m
+about them by examining them; try [0m[1m[4mexamine door[0m[4m (or just [0m[1m[4mx door[0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469775
@@ -76,7 +76,7 @@ command: x door
 The door is fashioned from heavy wood darkened by time and use, with impressive
 brass fittings.
 
-[0m[4m[You are present as part of this world too. Try [0m[1mlook at me[0m [0m[4mor [0m[1ml self[0m [0m[4mto get an
+[0m[4m[You are present as part of this world too. Try [0m[1m[4mlook at me[0m[4m or [0m[1m[4ml self[0m[4m to get an
 idea of who you are.][0m
 
 --------------------------------------------------------------------------------
@@ -132,7 +132,7 @@ You glance down down with the odd feeling that you'll be surprised by what you
 see. You are a tall, lean figure, with a shock of white hair over a clean-shaven
 and somewhat long face.
 
-[0m[4m[You are carrying a small key; you can leave it here with [0m[1mdrop key[0m [0m[4m.][0m
+[0m[4m[You are carrying a small key; you can leave it here with [0m[1m[4mdrop key[0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469780
@@ -142,7 +142,7 @@ command: drop key
 > drop key
 The small key falls to the ground.
 
-[0m[4m[A small key is nearby. You could [0m[1mtake key[0m [0m[4mto pick it up.][0m
+[0m[4m[A small key is nearby. You could [0m[1m[4mtake key[0m[4m to pick it up.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469781
@@ -154,14 +154,14 @@ command: drop trousers
 That sounds somewhat unseemly.
 
 [0m[4m[The world consists of distinct locations you can visit. You are currently in
-Outside The Lamp And The Egg Pub, but could [0m[1mgo east[0m [0m[4m(or just [0m[1meast[0m [0m[4m) to move to a
+Outside The Lamp And The Egg Pub, but could [0m[1m[4mgo east[0m[4m (or just [0m[1m[4meast[0m[4m) to move to a
 different location.
 
-Direction names include the eight cardinal directions ([0m[1mnorth[0m [0m[4m, [0m[1mnortheast[0m [0m[4m, [0m[1meast[0m
-[0m[4m, etc.) as well as [0m[1mup[0m [0m[4m, [0m[1mdown[0m [0m[4m, [0m[1min[0m [0m[4m, and [0m[1mout[0m [0m[4m.
+Direction names include the eight cardinal directions ([0m[1m[4mnorth[0m[4m, [0m[1m[4mnortheast[0m[4m, [0m[1m[4meast[0m[4m,
+etc.) as well as [0m[1m[4mup[0m[4m, [0m[1m[4mdown[0m[4m, [0m[1m[4min[0m[4m, and [0m[1m[4mout[0m[4m.
 
-Finally, you can abbreviate most directions: [0m[1mn[0m [0m[4mfor [0m[1mnorth[0m [0m[4m, [0m[1mne[0m [0m[4mfor [0m[1mnortheast[0m [0m[4m,
-and so forth.][0m
+Finally, you can abbreviate most directions: [0m[1m[4mn[0m[4m for [0m[1m[4mnorth[0m[4m, [0m[1m[4mne[0m[4m for [0m[1m[4mnortheast[0m[4m, and
+so forth.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469783
@@ -171,7 +171,7 @@ command: take key
 > take key
 You take the small key.
 
-[0m[4m[We try to be kind; if you are in doubt, try [0m[1mexits[0m [0m[4mto list all the directions
+[0m[4m[We try to be kind; if you are in doubt, try [0m[1m[4mexits[0m[4m to list all the directions
 you can move. Well, except for any secret ones!][0m
 
 --------------------------------------------------------------------------------
@@ -248,7 +248,7 @@ the sleeves of his button-down shirt. He never seems to stop moving, even though
 he also seems rooted in place.
 
 [0m[4m[There are other characters about, such as the Bartender. We can strike up a
-conversation with them, with [0m[1mtalk to bartender[0m [0m[4m(or [0m[1mhello bartender[0m [0m[4m).][0m
+conversation with them, with [0m[1m[4mtalk to bartender[0m[4m (or [0m[1m[4mhello bartender[0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469792
@@ -281,7 +281,7 @@ an ancient and likely structural wooden beam, you can see a few flashing lights
 from the room to the north.
 
 [0m[4m[There are other characters about, such as the Bartender. We can strike up a
-conversation with them, with [0m[1mtalk to bartender[0m [0m[4m(or [0m[1mhello bartender[0m [0m[4m).][0m
+conversation with them, with [0m[1m[4mtalk to bartender[0m[4m (or [0m[1m[4mhello bartender[0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469797
@@ -359,12 +359,12 @@ You could ask where everyone is.
 [0m[4m[Conversations take the form of connect series of questions or statements
 between you and another character in the world
 
-Here you could [0m[1mask bartender where everyone is[0m [0m[4m, or (because you are already
-talking to the Bartender) you don't have to mention their name, and can just [0m[1mask
-where everyone is[0m [0m[4m.
+Here you could [0m[1m[4mask bartender where everyone is[0m[4m, or (because you are already
+talking to the Bartender) you don't have to mention their name, and can just [0m[1m[4mask
+where everyone is[0m[4m.
 
 In fact, you can just type some or all of the words in the suggested topic, 
-[0m[1meveryone[0m [0m[4m, and the game will figure out that it's part of the ongoing
+[0m[1m[4meveryone[0m[4m, and the game will figure out that it's part of the ongoing
 conversation.][0m
 
 --------------------------------------------------------------------------------
@@ -435,7 +435,7 @@ You could ask where everyone is, say that the machine is quite noisy, or say no
 need to shout.
 
 [0m[4m[Some objects, such as the billiards table, are big enough for you to stand on.
-Try [0m[1mclimb table[0m [0m[4m.][0m
+Try [0m[1m[4mclimb table[0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736659403440
@@ -652,7 +652,7 @@ appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403473
-parent-id: 1770696654129
+parent-id: 1736727647595
 command: talk to bartender
 --------------------------------------------------------------------------------
 > talk to bartender
@@ -693,12 +693,12 @@ You could ask where everyone is.
 [0m[4m[Conversations take the form of connect series of questions or statements
 between you and another character in the world
 
-Here you could [0m[1mask bartender where everyone is[0m [0m[4m, or (because you are already
-talking to the Bartender) you don't have to mention their name, and can just [0m[1mask
-where everyone is[0m [0m[4m.
+Here you could [0m[1m[4mask bartender where everyone is[0m[4m, or (because you are already
+talking to the Bartender) you don't have to mention their name, and can just [0m[1m[4mask
+where everyone is[0m[4m.
 
 In fact, you can just type some or all of the words in the suggested topic, 
-[0m[1meveryone[0m [0m[4m, and the game will figure out that it's part of the ongoing
+[0m[1m[4meveryone[0m[4m, and the game will figure out that it's part of the ongoing
 conversation.][0m
 
 --------------------------------------------------------------------------------
@@ -856,7 +856,7 @@ machine.
 You could say that the machine is quite noisy or say no need to shout.
 
 [0m[4m[Some objects, such as the billiards table, are big enough for you to stand on.
-Try [0m[1mclimb table[0m [0m[4m.][0m
+Try [0m[1m[4mclimb table[0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647610
@@ -902,12 +902,6 @@ North to the Game Room.
 You could say that the machine is quite noisy.
 
 --------------------------------------------------------------------------------
-id: 1770696654129
-parent-id: 1736727647595
-command: * machine is off, so lose conv r.e. machine
---------------------------------------------------------------------------------
-> * machine is off, so lose conv r.e. machine
---------------------------------------------------------------------------------
 id: 1770696654130
 parent-id: 1736659403469
 command: e
@@ -937,7 +931,7 @@ You could ask where everyone is or say that the machine is quite noisy.
 
 --------------------------------------------------------------------------------
 id: 1770696654132
-parent-id: 1770696654133
+parent-id: 1770696654131
 command: everyone
 --------------------------------------------------------------------------------
 > everyone
@@ -953,12 +947,6 @@ word "WIN!".
 
 You could say that the machine is quite noisy.
 
---------------------------------------------------------------------------------
-id: 1770696654133
-parent-id: 1770696654131
-command: * machine is on
---------------------------------------------------------------------------------
-> * machine is on
 --------------------------------------------------------------------------------
 id: 1770696654134
 parent-id: 1770696654132
