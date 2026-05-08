@@ -121,11 +121,6 @@ Since you can _always_ perform inventory, the $Operand is bound to an empty list
 
 Note the use of `(suggest command $Action)`, which takes care of formatting the command in bold.
 
->[!WARNING]
-> Only in the debugger (and, thus, the normal Skein), an unbreakable space occurs after
-> each suggested command. This does not occur in frotz, the web player, or Spatterlight, and is likely a bug
-> in dgdebug.
-
 The `($ is performed by $)` predicate allows tutorial mode to identify when the suggestion has been carried out;
 this prevents tutorial mode from suggesting things the player has already demonstrated.
 
