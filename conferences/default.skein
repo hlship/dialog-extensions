@@ -2,14 +2,10 @@
 id: 0
 label: START
 --------------------------------------------------------------------------------
-[1m[36mDialog Interactive Debugger (dgdebug) version 1b/01.[0m[36m
-Type @help at the game prompt for a brief introduction.
-[0m
+
 
 [0m[1mConference Chamber[0m
-A low ceilinged chamber with a scattering of heavy wooden tables, perfect for
-the exchange of information that can shape the course of history. Lavine is
-already seated at the nearest table, and Thurg hovers nearby.
+A low ceilinged chamber with a scattering of heavy wooden tables, perfect for the exchange of information that can shape the course of history. Lavine is already seated at the nearest table, and Thurg hovers nearby.
 
 --------------------------------------------------------------------------------
 id: 1735882385344
@@ -27,13 +23,11 @@ parent-id: 1735882385344
 command: happy
 --------------------------------------------------------------------------------
 > happy
-"I am so glad to see you," you tell Lavine, "I am sure the alliance of our two
-peoples will be a long and happy one."
+"I am so glad to see you," you tell Lavine, "I am sure the alliance of our two peoples will be a long and happy one."
 
 "That is my hope as well," she says musically.
 
-Thurg roars in fury and begins to choke the life out of you, shouting "NO ELF-
-HUMAN ALLIANCE" again and again.
+Thurg roars in fury and begins to choke the life out of you, shouting "NO ELF-HUMAN ALLIANCE" again and again.
 
 [0m[1m     *** You have died. ***     
 [0m
@@ -41,21 +35,18 @@ HUMAN ALLIANCE" again and again.
      UNDO the last move,
      RESTORE a saved position,
      QUIT the program,
-     or RESTART from the beginning?[0m
+     or RESTART from the beginning?
 --------------------------------------------------------------------------------
 id: 1735882385346
 parent-id: 1735882385344
 command: ask why
 --------------------------------------------------------------------------------
 > ask why
-"Why have you come?" you demand of Lavine urgently. You keep your voice as low
-as you are able, but Thurg nonetheless watches you with obvious comprehension.
+"Why have you come?" you demand of Lavine urgently. You keep your voice as low as you are able, but Thurg nonetheless watches you with obvious comprehension.
 
-"Why, to see what it was you were saying to the trolls, of course," she answers
-in a clear, bell-like tone. "Our alliance is still young, eh?"
+"Why, to see what it was you were saying to the trolls, of course," she answers in a clear, bell-like tone. "Our alliance is still young, eh?"
 
-Thurg roars in fury and begins to choke the life out of you, shouting "NO ELF-
-HUMAN ALLIANCE" again and again.
+Thurg roars in fury and begins to choke the life out of you, shouting "NO ELF-HUMAN ALLIANCE" again and again.
 
 [0m[1m     *** You have died. ***     
 [0m
@@ -63,4 +54,4 @@ HUMAN ALLIANCE" again and again.
      UNDO the last move,
      RESTORE a saved position,
      QUIT the program,
-     or RESTART from the beginning?[0m
+     or RESTART from the beginning?

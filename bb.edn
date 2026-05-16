@@ -9,6 +9,14 @@
              [clj-commons.ansi :refer [pout]]
              [release :as r :refer [sh]])
   package   (r/package "test")
+  refresh-libs (let [source-dir (fs/path "../dialog")
+                     cp (fn [name to-dir]
+                          (pout name " ...")
+                          (fs/copy (fs/path source-dir name)
+                                   (fs/path to-dir name)
+                                   {:replace-existing true}))]
+                 (cp "stdlib.dg" "lib/dialog")
+                 (cp "stddebug.dg" "lib/dialog/debug"))
   release   (let [tag         (sh {:out :string} "git describe --tags --abbrev=0")
                   zip-file    (r/package tag)
                   sha         (r/sha256 zip-file)

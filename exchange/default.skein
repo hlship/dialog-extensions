@@ -2,20 +2,14 @@
 id: 0
 label: START
 --------------------------------------------------------------------------------
-[1m[36mDialog Interactive Debugger (dgdebug) version 1b/01.[0m[36m
-Type @help at the game prompt for a brief introduction.
-[0m
 
-Another miserable night in the London fog and rain. You have the package, and
-Malory is your contact... but can he be trusted?
+
+Another miserable night in the London fog and rain. You have the package, and Malory is your contact... but can he be trusted?
 
 [0m[1mFoggy Alley[0m
-You would be hard pressed to find a more cliche location for the drop off than
-this deserted alley. Fog billows in from somewhere, and a lone lamppost sheds
-minimal light. The sounds of bustling London are distant.
+You would be hard pressed to find a more cliche location for the drop off than this deserted alley. Fog billows in from somewhere, and a lone lamppost sheds minimal light. The sounds of bustling London are distant.
 
-Malory, your contact, stands just outside the weak cone of light from the
-lamppost.
+Malory, your contact, stands just outside the weak cone of light from the lamppost.
 
 --------------------------------------------------------------------------------
 id: 1735881651532
@@ -25,8 +19,7 @@ command: talk to malory
 > talk to malory
 "Malory" is all you say. We're taught to keep these exchanges brief.
 
-"Well," asks Malory, "do you have the package?" Always a bit too direct, this
-one, everything's so urgent, no sense of panache.
+"Well," asks Malory, "do you have the package?" Always a bit too direct, this one, everything's so urgent, no sense of panache.
 
 You could say all in good time.
 
@@ -48,11 +41,9 @@ parent-id: 1735881651533
 command: precautions
 --------------------------------------------------------------------------------
 > precautions
-"Fine, then. On to business," you begin, "have all proper precautions been
-taken?"
+"Fine, then. On to business," you begin, "have all proper precautions been taken?"
 
-Malory gives you a hard stare. "Damn it, man. This is important--what are you
-playing at?"
+Malory gives you a hard stare. "Damn it, man. This is important--what are you playing at?"
 
 You could ask whether the safe house is ready or ask for the pass phrase.
 
@@ -64,13 +55,11 @@ command: safe house
 > safe house
 "The safe house, is it ready?" you inquire.
 
-Malory scoffs: "Yes, there's a safe house. No, I won't reveal its location. This
-is not a training exercise, why are you being so obtuse?"
+Malory scoffs: "Yes, there's a safe house. No, I won't reveal its location. This is not a training exercise, why are you being so obtuse?"
 
 A moment passes.
 
-Malory asks "What the devil are you up to? This whole exchange should be cut and
-dried." He searches out your face in the gloom, looking for something.
+Malory asks "What the devil are you up to? This whole exchange should be cut and dried." He searches out your face in the gloom, looking for something.
 
 You could ask for the pass phrase or comment on the weather.
 
@@ -80,19 +69,15 @@ parent-id: 1735881651535
 command: sell
 --------------------------------------------------------------------------------
 > sell
-You try a joke: "Planning on selling this to the highest bidder? Might be your
-best shot out of the game."
+You try a joke: "Planning on selling this to the highest bidder? Might be your best shot out of the game."
 
-Malory is taken aback. "If that's an attempt at humor, now is not the time or
-place. We'll be having words about this back at the den."
+Malory is taken aback. "If that's an attempt at humor, now is not the time or place. We'll be having words about this back at the den."
 
-Perhaps this was not the best gambit. Malory has friends among the Oxford crowd,
-so the consequences of this unseemly exchange could be quite dire.
+Perhaps this was not the best gambit. Malory has friends among the Oxford crowd, so the consequences of this unseemly exchange could be quite dire.
 
 A moment passes.
 
-"Perhaps field work has grown too taxing for you," he says, "we may need to have
-a post-mortem back at the den." That sounds ominous.
+"Perhaps field work has grown too taxing for you," he says, "we may need to have a post-mortem back at the den." That sounds ominous.
 
 You could ask for the pass phrase or comment on the weather.
 
@@ -102,11 +87,9 @@ parent-id: 1735881651537
 command: pass
 --------------------------------------------------------------------------------
 > pass
-"I'm certainly not handing over something this valuable without the proper pass
-phrase," you announce.
+"I'm certainly not handing over something this valuable without the proper pass phrase," you announce.
 
-Malory's eyes flash left and right, and he leans in close. He whispers the
-correct pass phrase almost inaudibly. You're somewhat relieved.
+Malory's eyes flash left and right, and he leans in close. He whispers the correct pass phrase almost inaudibly. You're somewhat relieved.
 
 You could comment on the weather.
 
@@ -118,8 +101,7 @@ command: z
 > z
 A moment slips away.
 
-Are you satisfied? Hard to say in this business. People have secrets, wheels
-within wheels. Still, it's time to hand him the package and hope for the best.
+Are you satisfied? Hard to say in this business. People have secrets, wheels within wheels. Still, it's time to hand him the package and hope for the best.
 
 You could comment on the weather.
 
@@ -129,8 +111,7 @@ parent-id: 0
 command: give package to malory
 --------------------------------------------------------------------------------
 > give package to malory
-Protocol dictates that important assets should not be released until the
-responsible agent confirms security precautions.
+Protocol dictates that important assets should not be released until the responsible agent confirms security precautions.
 
 --------------------------------------------------------------------------------
 id: 1735881651541
@@ -140,8 +121,7 @@ command: talk to him
 > talk to him
 "Malory" is all you say. We're taught to keep these exchanges brief.
 
-"Well," asks Malory, "do you have the package?" Always a bit too direct, this
-one, everything's so urgent, no sense of panache.
+"Well," asks Malory, "do you have the package?" Always a bit too direct, this one, everything's so urgent, no sense of panache.
 
 You could say all in good time.
 
@@ -197,11 +177,9 @@ parent-id: 1735881651545
 command: precautions
 --------------------------------------------------------------------------------
 > precautions
-"Fine, then. On to business," you begin, "have all proper precautions been
-taken?"
+"Fine, then. On to business," you begin, "have all proper precautions been taken?"
 
-Malory gives you a hard stare. "Damn it, man. This is important--what are you
-playing at?"
+Malory gives you a hard stare. "Damn it, man. This is important--what are you playing at?"
 
 You could ask whether the safe house is ready or ask for the pass phrase.
 
@@ -211,12 +189,9 @@ parent-id: 1735881651546
 command: pass phrase
 --------------------------------------------------------------------------------
 > pass phrase
-"I'm certainly not handing over something this valuable without the proper pass
-phrase," you announce.
+"I'm certainly not handing over something this valuable without the proper pass phrase," you announce.
 
-Malory's eyes flash left and right, and he leans in close. He whispers the
-correct pass phrase almost inaudibly. You're somewhat relieved, but you still
-have your orders.
+Malory's eyes flash left and right, and he leans in close. He whispers the correct pass phrase almost inaudibly. You're somewhat relieved, but you still have your orders.
 
 You could ask whether the safe house is ready or comment on the weather.
 
@@ -226,8 +201,7 @@ parent-id: 1735881651547
 command: give case to malory
 --------------------------------------------------------------------------------
 > give case to malory
-Protocol dictates that important assets should not be released until the
-responsible agent confirms security precautions.
+Protocol dictates that important assets should not be released until the responsible agent confirms security precautions.
 
 You could ask whether the safe house is ready or comment on the weather.
 
@@ -239,13 +213,11 @@ command: a house
 > a house
 "The safe house, is it ready?" you inquire.
 
-Malory scoffs: "Yes, there's a safe house. No, I won't reveal its location. This
-is not a training exercise, why are you being so obtuse?"
+Malory scoffs: "Yes, there's a safe house. No, I won't reveal its location. This is not a training exercise, why are you being so obtuse?"
 
 A moment passes.
 
-Malory asks "What the devil are you up to? This whole exchange should be cut and
-dried." He searches out your face in the gloom, looking for something.
+Malory asks "What the devil are you up to? This whole exchange should be cut and dried." He searches out your face in the gloom, looking for something.
 
 You could comment on the weather.
 
@@ -255,15 +227,11 @@ parent-id: 1735881651549
 command: weather
 --------------------------------------------------------------------------------
 > weather
-"Damnable weather, isn't it?" You watch carefully to see how he reacts.
-Sometimes a careful facade starts to crumble when faced with something
-unexpected, such as a casual exchange in tense circumstances.
+"Damnable weather, isn't it?" You watch carefully to see how he reacts. Sometimes a careful facade starts to crumble when faced with something unexpected, such as a casual exchange in tense circumstances.
 
-Are you satisfied? Hard to say in this business. People have secrets, wheels
-within wheels. Still, it's time to hand him the package and hope for the best.
+Are you satisfied? Hard to say in this business. People have secrets, wheels within wheels. Still, it's time to hand him the package and hope for the best.
 
-"It's London," he replies, "the weather is always damnable. I'm not here for
-pleasantries." A solid response, but care must be taken.
+"It's London," he replies, "the weather is always damnable. I'm not here for pleasantries." A solid response, but care must be taken.
 
 You could ask what's wrong with pleasantries.
 
@@ -273,13 +241,11 @@ parent-id: 1735881651550
 command: drop case
 --------------------------------------------------------------------------------
 > drop case
-The phrase "over my dead body" is usually an exaggeration. In this case, it is
-chillingly accurate.
+The phrase "over my dead body" is usually an exaggeration. In this case, it is chillingly accurate.
 
 Begrudgingly, it's time to hand him the package and hope for the best.
 
-"Perhaps field work has grown too taxing for you," he says, "we may need to have
-a post-mortem back at the den." That sounds ominous.
+"Perhaps field work has grown too taxing for you," he says, "we may need to have a post-mortem back at the den." That sounds ominous.
 
 --------------------------------------------------------------------------------
 id: 1735881651552
@@ -287,18 +253,15 @@ parent-id: 1735881651551
 command: give it to him
 --------------------------------------------------------------------------------
 > give it to him
-You hand the briefcase to Malory and catch a look of something--greed? relief?
-annoyance?--in his eyes. He disappears down the alley and is lost immediately in
-the fog.
+You hand the briefcase to Malory and catch a look of something--greed? relief? annoyance?--in his eyes. He disappears down the alley and is lost immediately in the fog.
 
-[0m[1m     *** The package has been delivered. Whether that's a triumph or a failure
-will be known soon. ***     
+[0m[1m     *** The package has been delivered. Whether that's a triumph or a failure will be known soon. ***     
 [0m
 [0m[4mWould you like to:
      UNDO the last move,
      RESTORE a saved position,
      QUIT the program,
-     or RESTART from the beginning?[0m
+     or RESTART from the beginning?
 --------------------------------------------------------------------------------
 id: 1736025615707
 parent-id: 1735881651539

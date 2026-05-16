@@ -2,16 +2,12 @@
 id: 0
 label: START
 --------------------------------------------------------------------------------
-[1m[36mDialog Interactive Debugger (dgdebug) version 1b/01.[0m[36m
-Type @help at the game prompt for a brief introduction.
-[0m
+
 
 Just wait here, we won't be but a minute.
 
 [0m[1mEmpty Office[0m
-You've been left in this office to stew a bit before they are ready for your
-interview. To say it is bare-bones is an understatement. No windows, or even any
-furniture beyond a single battered table.
+You've been left in this office to stew a bit before they are ready for your interview. To say it is bare-bones is an understatement. No windows, or even any furniture beyond a single battered table.
 
 --------------------------------------------------------------------------------
 id: 1736104077955
@@ -19,9 +15,7 @@ parent-id: 0
 command: x table
 --------------------------------------------------------------------------------
 > x table
-A dented and dusty metal table. Someone has left a shiny penny on the table.
-Oddly, the only decoration in the room is a metronome sitting in one corner of
-the table.
+A dented and dusty metal table. Someone has left a shiny penny on the table. Oddly, the only decoration in the room is a metronome sitting in one corner of the table.
 
 --------------------------------------------------------------------------------
 id: 1736104077956
@@ -48,8 +42,7 @@ command: drop it
 > drop it
 The shiny penny falls to the ground.
 
-As the penny hits the floor, you hear a click and a low humming starts. A thin
-red line of illumination appears around the edges of the floor.
+As the penny hits the floor, you hear a click and a low humming starts. A thin red line of illumination appears around the edges of the floor.
 
 --------------------------------------------------------------------------------
 id: 1736104077959
@@ -58,10 +51,7 @@ command: l
 --------------------------------------------------------------------------------
 > l
 [0m[1mEmpty Office[0m
-You've been left in this office to stew a bit before they are ready for your
-interview. To say it is bare-bones is an understatement. No windows, or even any
-furniture beyond a single battered table. The edges of the floor are lit with a
-dim red light, and you can hear a low hum.
+You've been left in this office to stew a bit before they are ready for your interview. To say it is bare-bones is an understatement. No windows, or even any furniture beyond a single battered table. The edges of the floor are lit with a dim red light, and you can hear a low hum.
 
 You see a shiny penny here.
 
@@ -80,8 +70,7 @@ parent-id: 1736104077960
 command: x metro
 --------------------------------------------------------------------------------
 > x metro
-A small box with a kind of inverted pendulum standing up. If it were pushed, it
-would start swinging back and forth at an even rate.
+A small box with a kind of inverted pendulum standing up. If it were pushed, it would start swinging back and forth at an even rate.
 
 --------------------------------------------------------------------------------
 id: 1736104077962
@@ -89,8 +78,7 @@ parent-id: 1736104077961
 command: push it
 --------------------------------------------------------------------------------
 > push it
-You give the metronome a bit of a push. As expected, the metronome's pendulum
-starts to swing back and forth.
+You give the metronome a bit of a push. As expected, the metronome's pendulum starts to swing back and forth.
 
 --------------------------------------------------------------------------------
 id: 1736104077963
@@ -99,10 +87,7 @@ command: l
 --------------------------------------------------------------------------------
 > l
 [0m[1mEmpty Office[0m
-You've been left in this office to stew a bit before they are ready for your
-interview. To say it is bare-bones is an understatement. No windows, or even any
-furniture beyond a single battered table. The edges of the floor are lit with a
-dim red light, and you can hear a low hum.
+You've been left in this office to stew a bit before they are ready for your interview. To say it is bare-bones is an understatement. No windows, or even any furniture beyond a single battered table. The edges of the floor are lit with a dim red light, and you can hear a low hum.
 
 You see a shiny penny here.
 
@@ -125,8 +110,7 @@ command: take penny
 > take penny
 You take the shiny penny.
 
-As you pick up the penny, there's another click, and the red illumination
-disappears.
+As you pick up the penny, there's another click, and the red illumination disappears.
 
 The metronome's pendulum swings to one extreme and there's an audible click.
 
@@ -137,9 +121,7 @@ command: l
 --------------------------------------------------------------------------------
 > l
 [0m[1mEmpty Office[0m
-You've been left in this office to stew a bit before they are ready for your
-interview. To say it is bare-bones is an understatement. No windows, or even any
-furniture beyond a single battered table.
+You've been left in this office to stew a bit before they are ready for your interview. To say it is bare-bones is an understatement. No windows, or even any furniture beyond a single battered table.
 
 The metronome's pendulum swings to one extreme and there's an audible click.
 
@@ -162,8 +144,7 @@ The shiny penny falls to the ground.
 
 The metronome's pendulum swings to a stop.
 
-As the penny hits the floor, you hear a click and a low humming starts. A thin
-red line of illumination appears around the edges of the floor.
+As the penny hits the floor, you hear a click and a low humming starts. A thin red line of illumination appears around the edges of the floor.
 
 --------------------------------------------------------------------------------
 id: 1736104077969
@@ -172,10 +153,7 @@ command: l
 --------------------------------------------------------------------------------
 > l
 [0m[1mEmpty Office[0m
-You've been left in this office to stew a bit before they are ready for your
-interview. To say it is bare-bones is an understatement. No windows, or even any
-furniture beyond a single battered table. The edges of the floor are lit with a
-dim red light, and you can hear a low hum.
+You've been left in this office to stew a bit before they are ready for your interview. To say it is bare-bones is an understatement. No windows, or even any furniture beyond a single battered table. The edges of the floor are lit with a dim red light, and you can hear a low hum.
 
 You see a shiny penny here.
 

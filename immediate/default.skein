@@ -2,18 +2,12 @@
 id: 0
 label: START
 --------------------------------------------------------------------------------
-[1m[36mDialog Interactive Debugger (dgdebug) version 1b/01.[0m[36m
-Type @help at the game prompt for a brief introduction.
-[0m
 
-Portland's a small town, so you never know quite who you are going to run into.
-You're old buddy Ted is waiting for the bus, and you haven't seen him in a
-while--long enough for him to grow some serious facial hair.
+
+Portland's a small town, so you never know quite who you are going to run into. You're old buddy Ted is waiting for the bus, and you haven't seen him in a while--long enough for him to grow some serious facial hair.
 
 [0m[1mSidewalk[0m
-Waiting for the bus at the sidewalk outside your office. You see your old friend
-Ted also waiting; you lost track of him a couple of gigs ago. He looks changed,
-though.
+Waiting for the bus at the sidewalk outside your office. You see your old friend Ted also waiting; you lost track of him a couple of gigs ago. He looks changed, though.
 
 --------------------------------------------------------------------------------
 id: 1736023297281
@@ -21,8 +15,7 @@ parent-id: 0
 command: talk ted
 --------------------------------------------------------------------------------
 > talk ted
-"Hey big man!" you say to Ted. "Oh hey! You take the 17 bus too? I've never seen
-you here before." he replies.
+"Hey big man!" you say to Ted. "Oh hey! You take the 17 bus too? I've never seen you here before." he replies.
 
 You could ask about the beard.
 
@@ -36,8 +29,7 @@ command: ask beard
 
 "Just needed a change, I guess" Ted replies.
 
-You could ask to borrow Ted's razor, ask if he has found a girlfriend, or sing
-the lumberjack song.
+You could ask to borrow Ted's razor, ask if he has found a girlfriend, or sing the lumberjack song.
 
 --------------------------------------------------------------------------------
 id: 1736023297283
@@ -45,14 +37,11 @@ parent-id: 1736023297282
 command: lumberjack
 --------------------------------------------------------------------------------
 > lumberjack
-You start to sing the Monty Python lumberjack song. "Oh, I'm a lumberjack and
-I'm OK, I sleep all night and I work all day..."
+You start to sing the Monty Python lumberjack song. "Oh, I'm a lumberjack and I'm OK, I sleep all night and I work all day..."
 
-Ted chimes in, skipping to the end: "I cut down trees. I wear high heels,
-suspendies, and a bra. I wish I'd been a girlie, Just like my dear Papa!"
+Ted chimes in, skipping to the end: "I cut down trees. I wear high heels, suspendies, and a bra. I wish I'd been a girlie, Just like my dear Papa!"
 
-You both chuckle a little, while the others waiting for the bus studiously avoid
-eye contact.
+You both chuckle a little, while the others waiting for the bus studiously avoid eye contact.
 
 You could ask to borrow Ted's razor or ask if he has found a girlfriend.
 
@@ -74,8 +63,7 @@ parent-id: 1736023297282
 command: a girlfriend
 --------------------------------------------------------------------------------
 > a girlfriend
-You have a sudden insight: "You dog, you found yourself a girlfriend, didn't
-you?"
+You have a sudden insight: "You dog, you found yourself a girlfriend, didn't you?"
 
 "Uh, yes" he replies. "Why do you ask?"
 

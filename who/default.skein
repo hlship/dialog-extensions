@@ -3,34 +3,24 @@ seed: 883716
 id: 0
 label: START
 --------------------------------------------------------------------------------
-[1m[36mDialog Interactive Debugger (dgdebug) version 1b/01.[0m[36m
-Type @help at the game prompt for a brief introduction.
-[0m
 
-Well, that was odd. You were just... someplace? And now you're... someplace
-else?
+
+Well, that was odd. You were just... someplace? And now you're... someplace else?
 
 [0m[1mWho Goes There
 [0mAn interactive fiction by Howard M. Lewis Ship.
 Release 0. Serial number DEBUG.
-Dialog Interactive Debugger (dgdebug) version 1b/01. Library version 1.2.0.
-Debugging extension 1.1.
+Dialog Interactive Debugger (dgdebug) version 1b/02. Library version 1.2.1. Debugging extension 1.2.1.
 Dialog extensions 0.8 by Howard Lewis Ship
 
 [0m[1mOutside The Lamp And The Egg Pub[0m
-You're on a narrow cobblestone path running north and south that threads between
-closely-set, squat stone houses. It's just after sunset, and in the dimness, you
-can make out a number of doors, all closed, and a few windows, all barricaded
-behind sturdy shutters.
+You're on a narrow cobblestone path running north and south that threads between closely-set, squat stone houses. It's just after sunset, and in the dimness, you can make out a number of doors, all closed, and a few windows, all barricaded behind sturdy shutters.
 
-The exception is the pub on the east side of the path; under a rather involved
-bit of signage is quite the formidable door. Through the somewhat dusty panes of
-the flanking windows you can make out a hint of light and movement.
+The exception is the pub on the east side of the path; under a rather involved bit of signage is quite the formidable door. Through the somewhat dusty panes of the flanking windows you can make out a hint of light and movement.
 
 The coolness following the setting sun has caused a light mist to form.
 
-[0m[4m[This game has a built-in tutorial mode for players new to interactive fiction;
-it suggests common commands that you can use to get started.
+[0m[4m[This game has a built-in tutorial mode for players new to interactive fiction; it suggests common commands that you can use to get started.
 
 You can turn this off with [0m[1m[4mtutorial off[0m[4m or back on with [0m[1m[4mtutorial on[0m[4m.][0m
 
@@ -41,8 +31,7 @@ command: tutorial off
 --------------------------------------------------------------------------------
 > tutorial off
 
-[0m[4m[Tutorial mode has been turned off; you can re-enable tutorials with [0m[1m[4mtutorial on
-[0m[4m.][0m
+[0m[4m[Tutorial mode has been turned off; you can re-enable tutorials with [0m[1m[4mtutorial on[0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469772
@@ -64,8 +53,7 @@ command: i
 > i
 You have a small key. You're wearing your grey trousers and your frilly jacket.
 
-[0m[4m[Often, there will be interesting objects nearby; you can get more information
-about them by examining them; try [0m[1m[4mexamine door[0m[4m (or just [0m[1m[4mx door[0m[4m).][0m
+[0m[4m[Often, there will be interesting objects nearby; you can get more information about them by examining them; try [0m[1m[4mexamine door[0m[4m (or just [0m[1m[4mx door[0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469775
@@ -73,11 +61,9 @@ parent-id: 1736385469774
 command: x door
 --------------------------------------------------------------------------------
 > x door
-The door is fashioned from heavy wood darkened by time and use, with impressive
-brass fittings.
+The door is fashioned from heavy wood darkened by time and use, with impressive brass fittings.
 
-[0m[4m[You are present as part of this world too. Try [0m[1m[4mlook at me[0m[4m or [0m[1m[4ml self[0m[4m to get an
-idea of who you are.][0m
+[0m[4m[You are present as part of this world too. Try [0m[1m[4mlook at me[0m[4m or [0m[1m[4ml self[0m[4m to get an idea of who you are.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469776
@@ -128,9 +114,7 @@ parent-id: 1736385469776
 command: l self
 --------------------------------------------------------------------------------
 > l self
-You glance down down with the odd feeling that you'll be surprised by what you
-see. You are a tall, lean figure, with a shock of white hair over a clean-shaven
-and somewhat long face.
+You glance down down with the odd feeling that you'll be surprised by what you see. You are a tall, lean figure, with a shock of white hair over a clean-shaven and somewhat long face.
 
 [0m[4m[You are carrying a small key; you can leave it here with [0m[1m[4mdrop key[0m[4m.][0m
 
@@ -153,15 +137,11 @@ command: drop trousers
 (first attempting to remove your grey trousers)
 That sounds somewhat unseemly.
 
-[0m[4m[The world consists of distinct locations you can visit. You are currently in
-Outside The Lamp And The Egg Pub, but could [0m[1m[4mgo east[0m[4m (or just [0m[1m[4meast[0m[4m) to move to a
-different location.
+[0m[4m[The world consists of distinct locations you can visit. You are currently in Outside The Lamp And The Egg Pub, but could [0m[1m[4mgo east[0m[4m (or just [0m[1m[4meast[0m[4m) to move to a different location.
 
-Direction names include the eight cardinal directions ([0m[1m[4mnorth[0m[4m, [0m[1m[4mnortheast[0m[4m, [0m[1m[4meast[0m[4m,
-etc.) as well as [0m[1m[4mup[0m[4m, [0m[1m[4mdown[0m[4m, [0m[1m[4min[0m[4m, and [0m[1m[4mout[0m[4m.
+Direction names include the eight cardinal directions ([0m[1m[4mnorth[0m[4m, [0m[1m[4mnortheast[0m[4m, [0m[1m[4meast[0m[4m, etc.) as well as [0m[1m[4mup[0m[4m, [0m[1m[4mdown[0m[4m, [0m[1m[4min[0m[4m, and [0m[1m[4mout[0m[4m.
 
-Finally, you can abbreviate most directions: [0m[1m[4mn[0m[4m for [0m[1m[4mnorth[0m[4m, [0m[1m[4mne[0m[4m for [0m[1m[4mnortheast[0m[4m, and
-so forth.][0m
+Finally, you can abbreviate most directions: [0m[1m[4mn[0m[4m for [0m[1m[4mnorth[0m[4m, [0m[1m[4mne[0m[4m for [0m[1m[4mnortheast[0m[4m, and so forth.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469783
@@ -171,8 +151,7 @@ command: take key
 > take key
 You take the small key.
 
-[0m[4m[We try to be kind; if you are in doubt, try [0m[1m[4mexits[0m[4m to list all the directions
-you can move. Well, except for any secret ones!][0m
+[0m[4m[We try to be kind; if you are in doubt, try [0m[1m[4mexits[0m[4m to list all the directions you can move. Well, except for any secret ones!][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469785
@@ -180,8 +159,7 @@ parent-id: 1736727647598
 command: x door
 --------------------------------------------------------------------------------
 > x door
-The door is fashioned from heavy wood darkened by time and use, with impressive
-brass fittings.
+The door is fashioned from heavy wood darkened by time and use, with impressive brass fittings.
 
 --------------------------------------------------------------------------------
 id: 1736385469786
@@ -189,10 +167,7 @@ parent-id: 1736385469785
 command: x windows
 --------------------------------------------------------------------------------
 > x windows
-The coolness brought on with the setting sun has left the windows nearly opaque
-with condensation on the inside, and the outside surface is a blaze of nearly
-microscopic scratches and pits. Even so, you can sense some warmth and movement
-inside.
+The coolness brought on with the setting sun has left the windows nearly opaque with condensation on the inside, and the outside surface is a blaze of nearly microscopic scratches and pits. Even so, you can sense some warmth and movement inside.
 
 --------------------------------------------------------------------------------
 id: 1736385469788
@@ -203,19 +178,11 @@ command: e
 You walk east through the pub door.
 
 [0m[1mInside the Pub[0m
-The pub's interior matches your every expectation. Dark wood, a well polished
-bar, several deep booths. Despite the early hour and chill outside, the pub is
-empty but for the bartender endlessly polishing the bar. Through a low overhang,
-an ancient and likely structural wooden beam, you can see a few flashing lights
-from the room to the north.
+The pub's interior matches your every expectation. Dark wood, a well polished bar, several deep booths. Despite the early hour and chill outside, the pub is empty but for the bartender endlessly polishing the bar. Through a low overhang, an ancient and likely structural wooden beam, you can see a few flashing lights from the room to the north.
 
-The bartender glances up and gives you a welcoming nod before returning to his
-polishing efforts.
+The bartender glances up and gives you a welcoming nod before returning to his polishing efforts.
 
-[0m[4m[The world is not on a perfect grid; sometimes you go east, and return to where
-you started by going south (not west). Sometimes a direction is a one-way trip,
-and you have to find an entirely different route back to where you started, if
-that is even possible.][0m
+[0m[4m[The world is not on a perfect grid; sometimes you go east, and return to where you started by going south (not west). Sometimes a direction is a one-way trip, and you have to find an entirely different route back to where you started, if that is even possible.][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469790
@@ -226,14 +193,9 @@ command: w
 You walk west through the pub door.
 
 [0m[1mOutside The Lamp And The Egg Pub[0m
-You're on a narrow cobblestone path running north and south that threads between
-closely-set, squat stone houses. It's just after sunset, and in the dimness, you
-can make out a number of doors, all closed, and a few windows, all barricaded
-behind sturdy shutters.
+You're on a narrow cobblestone path running north and south that threads between closely-set, squat stone houses. It's just after sunset, and in the dimness, you can make out a number of doors, all closed, and a few windows, all barricaded behind sturdy shutters.
 
-The exception is the pub on the east side of the path; under a rather involved
-bit of signage is quite the formidable door. Through the somewhat dusty panes of
-the flanking windows you can make out a hint of light and movement.
+The exception is the pub on the east side of the path; under a rather involved bit of signage is quite the formidable door. Through the somewhat dusty panes of the flanking windows you can make out a hint of light and movement.
 
 The mist is thicker and heavier now, giving everything a hazy, unformed look.
 
@@ -243,12 +205,9 @@ parent-id: 1736385469788
 command: x bartender
 --------------------------------------------------------------------------------
 > x bartender
-Younger than you'd think, he wears a lightly stained apron, and has rolled up
-the sleeves of his button-down shirt. He never seems to stop moving, even though
-he also seems rooted in place.
+Younger than you'd think, he wears a lightly stained apron, and has rolled up the sleeves of his button-down shirt. He never seems to stop moving, even though he also seems rooted in place.
 
-[0m[4m[There are other characters about, such as the Bartender. We can strike up a
-conversation with them, with [0m[1m[4mtalk to bartender[0m[4m (or [0m[1m[4mhello bartender[0m[4m).][0m
+[0m[4m[There are other characters about, such as the Bartender. We can strike up a conversation with them, with [0m[1m[4mtalk to bartender[0m[4m (or [0m[1m[4mhello bartender[0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469792
@@ -256,8 +215,7 @@ parent-id: 1736385469791
 command: x booth
 --------------------------------------------------------------------------------
 > x booth
-Each booth contains a pair of well-worn benches comfortably facing in towards
-each other, separated by a high table.
+Each booth contains a pair of well-worn benches comfortably facing in towards each other, separated by a high table.
 
 --------------------------------------------------------------------------------
 id: 1736385469793
@@ -274,14 +232,9 @@ command: l
 --------------------------------------------------------------------------------
 > l
 [0m[1mInside the Pub[0m
-The pub's interior matches your every expectation. Dark wood, a well polished
-bar, several deep booths. Despite the early hour and chill outside, the pub is
-empty but for the bartender endlessly polishing the bar. Through a low overhang,
-an ancient and likely structural wooden beam, you can see a few flashing lights
-from the room to the north.
+The pub's interior matches your every expectation. Dark wood, a well polished bar, several deep booths. Despite the early hour and chill outside, the pub is empty but for the bartender endlessly polishing the bar. Through a low overhang, an ancient and likely structural wooden beam, you can see a few flashing lights from the room to the north.
 
-[0m[4m[There are other characters about, such as the Bartender. We can strike up a
-conversation with them, with [0m[1m[4mtalk to bartender[0m[4m (or [0m[1m[4mhello bartender[0m[4m).][0m
+[0m[4m[There are other characters about, such as the Bartender. We can strike up a conversation with them, with [0m[1m[4mtalk to bartender[0m[4m (or [0m[1m[4mhello bartender[0m[4m).][0m
 
 --------------------------------------------------------------------------------
 id: 1736385469797
@@ -292,14 +245,9 @@ command: w
 You walk west through the pub door.
 
 [0m[1mOutside The Lamp And The Egg Pub[0m
-You're on a narrow cobblestone path running north and south that threads between
-closely-set, squat stone houses. It's just after sunset, and in the dimness, you
-can make out a number of doors, all closed, and a few windows, all barricaded
-behind sturdy shutters.
+You're on a narrow cobblestone path running north and south that threads between closely-set, squat stone houses. It's just after sunset, and in the dimness, you can make out a number of doors, all closed, and a few windows, all barricaded behind sturdy shutters.
 
-The exception is the pub on the east side of the path; under a rather involved
-bit of signage is quite the formidable door. Through the somewhat dusty panes of
-the flanking windows you can make out a hint of light and movement.
+The exception is the pub on the east side of the path; under a rather involved bit of signage is quite the formidable door. Through the somewhat dusty panes of the flanking windows you can make out a hint of light and movement.
 
 The mist is thicker and heavier now, giving everything a hazy, unformed look.
 
@@ -313,11 +261,7 @@ command: e
 You walk east through the pub door.
 
 [0m[1mInside the Pub[0m
-The pub's interior matches your every expectation. Dark wood, a well polished
-bar, several deep booths. Despite the early hour and chill outside, the pub is
-empty but for the bartender endlessly polishing the bar. Through a low overhang,
-an ancient and likely structural wooden beam, you can see a few flashing lights
-from the room to the north.
+The pub's interior matches your every expectation. Dark wood, a well polished bar, several deep booths. Despite the early hour and chill outside, the pub is empty but for the bartender endlessly polishing the bar. Through a low overhang, an ancient and likely structural wooden beam, you can see a few flashing lights from the room to the north.
 
 "Back again?" says the bartender, "You're quite the eager beaver."
 
@@ -356,16 +300,11 @@ You catch the bartender's eye, and he's eager to engage with his only customer.
 
 You could ask where everyone is.
 
-[0m[4m[Conversations take the form of connect series of questions or statements
-between you and another character in the world
+[0m[4m[Conversations take the form of connect series of questions or statements between you and another character in the world
 
-Here you could [0m[1m[4mask bartender where everyone is[0m[4m, or (because you are already
-talking to the Bartender) you don't have to mention their name, and can just [0m[1m[4mask
-where everyone is[0m[4m.
+Here you could [0m[1m[4mask bartender where everyone is[0m[4m, or (because you are already talking to the Bartender) you don't have to mention their name, and can just [0m[1m[4mask where everyone is[0m[4m.
 
-In fact, you can just type some or all of the words in the suggested topic, 
-[0m[1m[4meveryone[0m[4m, and the game will figure out that it's part of the ongoing
-conversation.][0m
+In fact, you can just type some or all of the words in the suggested topic, [0m[1m[4meveryone[0m[4m, and the game will figure out that it's part of the ongoing conversation.][0m
 
 --------------------------------------------------------------------------------
 id: 1736571515920
@@ -373,17 +312,11 @@ parent-id: 1736571515919
 command: where
 --------------------------------------------------------------------------------
 > where
-"Hey mate," you say, approaching the bar, "awfully quiet night in here, isn't
-it?"
+"Hey mate," you say, approaching the bar, "awfully quiet night in here, isn't it?"
 
-"Right you are sir!" he says, with just a note of agitation. "Been like this for
-too long, I say. But it's not like folks are going to go all dry, is it?" He
-thinks for a moment. "Things will pick up, soon enough; they have to."
+"Right you are sir!" he says, with just a note of agitation. "Been like this for too long, I say. But it's not like folks are going to go all dry, is it?" He thinks for a moment. "Things will pick up, soon enough; they have to."
 
-[0m[4m[After each exchange, you are provided with a list of other things you might say
-to continue the conversation (if there are any). There may also be further
-topics you can discuss, however, that are not suggested for puzzle or narrative
-reasons.][0m
+[0m[4m[After each exchange, you are provided with a list of other things you might say to continue the conversation (if there are any). There may also be further topics you can discuss, however, that are not suggested for puzzle or narrative reasons.][0m
 
 --------------------------------------------------------------------------------
 id: 1736577052091
@@ -391,9 +324,7 @@ parent-id: 1736385469771
 command: x sign
 --------------------------------------------------------------------------------
 > x sign
-The sign depicts two disembodied hands; one holds an antique brass lamp; rays of
-light radiate out at uniform angles to form the the backdrop. In the other hand
-is a shiny gold egg decorated with intricate, baroque patterns.
+The sign depicts two disembodied hands; one holds an antique brass lamp; rays of light radiate out at uniform angles to form the the backdrop. In the other hand is a shiny gold egg decorated with intricate, baroque patterns.
 
 --------------------------------------------------------------------------------
 id: 1736577052092
@@ -401,9 +332,7 @@ parent-id: 1736577052091
 command: x egg
 --------------------------------------------------------------------------------
 > x egg
-The sign depicts two disembodied hands; one holds an antique brass lamp; rays of
-light radiate out at uniform angles to form the the backdrop. In the other hand
-is a shiny gold egg decorated with intricate, baroque patterns.
+The sign depicts two disembodied hands; one holds an antique brass lamp; rays of light radiate out at uniform angles to form the the backdrop. In the other hand is a shiny gold egg decorated with intricate, baroque patterns.
 
 --------------------------------------------------------------------------------
 id: 1736659403439
@@ -411,31 +340,20 @@ parent-id: 1736727647599
 command: n
 --------------------------------------------------------------------------------
 > n
-You bend down quite low to squeeze under the wooden beam as you make your way
-into the game room.
+You bend down quite low to squeeze under the wooden beam as you make your way into the game room.
 
-"If it's all right with you, sir," the Bartender says, "I'll just stay here and
-keep an eye on the door. I can hear you fine on a quiet night like this. I'm
-sure we'll have a little more company in here, soon enough." You don't think he
-quite believes it, either.
+"If it's all right with you, sir," the Bartender says, "I'll just stay here and keep an eye on the door. I can hear you fine on a quiet night like this. I'm sure we'll have a little more company in here, soon enough." You don't think he quite believes it, either.
 
 [0m[1mGame Room[0m
-The main attraction of this room is a huge billiards table, centered in the
-small space. Arrayed around this centerpiece are a few also-rans: a sad little
-dartboard on the far side of the table from the rest of the pub, and a strange
-little machine on a small shelf wedged into one corner.
+The main attraction of this room is a huge billiards table, centered in the small space. Arrayed around this centerpiece are a few also-rans: a sad little dartboard on the far side of the table from the rest of the pub, and a strange little machine on a small shelf wedged into one corner.
 
-The bartender watches you expectantly from the his preferred spot behind the
-bar.
+The bartender watches you expectantly from the his preferred spot behind the bar.
 
-A cacacaphony of bells, chimes, and buzzers surge from the strange little
-machine.
+A cacacaphony of bells, chimes, and buzzers surge from the strange little machine.
 
-You could ask where everyone is, say that the machine is quite noisy, or say no
-need to shout.
+You could ask where everyone is, say that the machine is quite noisy, or say no need to shout.
 
-[0m[4m[Some objects, such as the billiards table, are big enough for you to stand on.
-Try [0m[1m[4mclimb table[0m[4m.][0m
+[0m[4m[Some objects, such as the billiards table, are big enough for you to stand on. Try [0m[1m[4mclimb table[0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736659403440
@@ -443,12 +361,9 @@ parent-id: 1736727647600
 command: x beam
 --------------------------------------------------------------------------------
 > x beam
-The beam itself, though large, is non-descript. It's position speaks to the
-considerable age of the pub; the game room almost certainly had a different
-purpose, originally, and was likely not connected to the pub.
+The beam itself, though large, is non-descript. It's position speaks to the considerable age of the pub; the game room almost certainly had a different purpose, originally, and was likely not connected to the pub.
 
-The gambling machine plays a triumpant fanfare, all buzzy electronic trumpets,
-then makes a sound like a bucketful of coins spilling into its tray.
+The gambling machine plays a triumpant fanfare, all buzzy electronic trumpets, then makes a sound like a bucketful of coins spilling into its tray.
 
 --------------------------------------------------------------------------------
 id: 1736659403442
@@ -456,16 +371,11 @@ parent-id: 1736659403439
 command: x table
 --------------------------------------------------------------------------------
 > x table
-A billiards table from a older, more grandious era, it is out of place in the
-pub simply as a matter of its shear size and solidity. It has great legs of
-carved mahogany, its blue felt is clean and unwrinkled, and the many pockets are
-entirely unmarked by wear.
+A billiards table from a older, more grandious era, it is out of place in the pub simply as a matter of its shear size and solidity. It has great legs of carved mahogany, its blue felt is clean and unwrinkled, and the many pockets are entirely unmarked by wear.
 
-The little machine plays a short cascade of notes, desperately trying to get
-your attention.
+The little machine plays a short cascade of notes, desperately trying to get your attention.
 
-You could ask where everyone is, say that the machine is quite noisy, or say no
-need to shout.
+You could ask where everyone is, say that the machine is quite noisy, or say no need to shout.
 
 --------------------------------------------------------------------------------
 id: 1736659403443
@@ -473,15 +383,9 @@ parent-id: 1736727647601
 command: x machine
 --------------------------------------------------------------------------------
 > x machine
-The machine sits on a shelf, at a height that would be comfortable if you were
-seated in front of it, though you don't see a chair. There's a color video
-screen that displays a frenetic kaledescope of hearts, coins, lucky clovers,
-pound symbols, and other things you don't recognize. A collection of buttons on
-the front apparently serve some purpose, perhaps when playing the game.
+The machine sits on a shelf, at a height that would be comfortable if you were seated in front of it, though you don't see a chair. There's a color video screen that displays a frenetic kaledescope of hearts, coins, lucky clovers, pound symbols, and other things you don't recognize. A collection of buttons on the front apparently serve some purpose, perhaps when playing the game.
 
-You hear the sound of rockets launching from the little machine in the corner,
-and see a fireworks display animated on its screen. The explosions fade to the
-word "WIN!".
+You hear the sound of rockets launching from the little machine in the corner, and see a fireworks display animated on its screen. The explosions fade to the word "WIN!".
 
 --------------------------------------------------------------------------------
 id: 1736659403444
@@ -489,16 +393,11 @@ parent-id: 1736659403443
 command: x lamp
 --------------------------------------------------------------------------------
 > x lamp
-A rectangular Tiffany lamp hangs from the ceiling; it is off-center with the
-table below, offset by a large and somewhat battered trap door mounted into the
-ceiling.
+A rectangular Tiffany lamp hangs from the ceiling; it is off-center with the table below, offset by a large and somewhat battered trap door mounted into the ceiling.
 
-The gambling machine falls silent for a moment, as if it's exhausted from all of
-its efforts to entice you to play.
+The gambling machine falls silent for a moment, as if it's exhausted from all of its efforts to entice you to play.
 
-In this moment of relative quiet, you can barely make out another sound... an
-insistent high-pitched whine, strangely familar. The sound is muffled, as it
-appears to be coming from some place above the ceiling.
+In this moment of relative quiet, you can barely make out another sound... an insistent high-pitched whine, strangely familar. The sound is muffled, as it appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403445
@@ -506,13 +405,9 @@ parent-id: 1736659403444
 command: x door
 --------------------------------------------------------------------------------
 > x door
-Mounted into the ceiling, next to the lamp, is a sizable trap door; you presume
-it gives access to an upper floor, or more likely, a crawl-space above the game
-room.
+Mounted into the ceiling, next to the lamp, is a sizable trap door; you presume it gives access to an upper floor, or more likely, a crawl-space above the game room.
 
-You hear the sound of rockets launching from the little machine in the corner,
-and see a fireworks display animated on its screen. The explosions fade to the
-word "WIN!".
+You hear the sound of rockets launching from the little machine in the corner, and see a fireworks display animated on its screen. The explosions fade to the word "WIN!".
 
 --------------------------------------------------------------------------------
 id: 1736659403455
@@ -529,13 +424,9 @@ parent-id: 1736659403440
 command: x bartender
 --------------------------------------------------------------------------------
 > x bartender
-Younger than you'd think, he wears a lightly stained apron, and has rolled up
-the sleeves of his button-down shirt. He never seems to stop moving, even though
-he also seems rooted in place.
+Younger than you'd think, he wears a lightly stained apron, and has rolled up the sleeves of his button-down shirt. He never seems to stop moving, even though he also seems rooted in place.
 
-You hear the sound of rockets launching from the little machine in the corner,
-and see a fireworks display animated on its screen. The explosions fade to the
-word "WIN!".
+You hear the sound of rockets launching from the little machine in the corner, and see a fireworks display animated on its screen. The explosions fade to the word "WIN!".
 
 --------------------------------------------------------------------------------
 id: 1736659403459
@@ -543,20 +434,13 @@ parent-id: 1736659403457
 command: climb table
 --------------------------------------------------------------------------------
 > climb table
-As you start to climb up on to the table, you are interrupted by the bartender.
-"Hold up then!" he says in, a much louder voice than he's used before, "What do
-you think you're up to? I just got that felt refinished, and you're not to be
-getting it mucked up now then."
+As you start to climb up on to the table, you are interrupted by the bartender. "Hold up then!" he says in, a much louder voice than he's used before, "What do you think you're up to? I just got that felt refinished, and you're not to be getting it mucked up now then."
 
-You obviously aren't going to climb up on the billiards table while he's
-watching.
+You obviously aren't going to climb up on the billiards table while he's watching.
 
-The gambling machine falls silent for a moment, as if it's exhausted from all of
-its efforts to entice you to play.
+The gambling machine falls silent for a moment, as if it's exhausted from all of its efforts to entice you to play.
 
-In this moment of relative quiet, you can barely make out another sound... an
-insistent high-pitched whine, strangely familar. The sound is muffled, as it
-appears to be coming from some place above the ceiling.
+In this moment of relative quiet, you can barely make out another sound... an insistent high-pitched whine, strangely familar. The sound is muffled, as it appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403460
@@ -564,12 +448,9 @@ parent-id: 1736659403459
 command: g
 --------------------------------------------------------------------------------
 > g
-You obviously aren't going to climb up on the billiards table while he's
-watching.
+You obviously aren't going to climb up on the billiards table while he's watching.
 
-You hear the sound of rockets launching from the little machine in the corner,
-and see a fireworks display animated on its screen. The explosions fade to the
-word "WIN!".
+You hear the sound of rockets launching from the little machine in the corner, and see a fireworks display animated on its screen. The explosions fade to the word "WIN!".
 
 --------------------------------------------------------------------------------
 id: 1736659403461
@@ -580,8 +461,7 @@ command: take machine
 > take machine
 You can't take the gambling machine.
 
-The little machine plays a short cascade of notes, desperately trying to get
-your attention.
+The little machine plays a short cascade of notes, desperately trying to get your attention.
 
 --------------------------------------------------------------------------------
 id: 1736659403464
@@ -589,15 +469,11 @@ parent-id: 1736659403461
 command: listen
 --------------------------------------------------------------------------------
 > listen
-You can't help but listen to the machine, given the endless bararge of sounds
-and music it produces.
+You can't help but listen to the machine, given the endless bararge of sounds and music it produces.
 
-The gambling machine falls silent for a moment, as if it's exhausted from all of
-its efforts to entice you to play.
+The gambling machine falls silent for a moment, as if it's exhausted from all of its efforts to entice you to play.
 
-In this moment of relative quiet, you can barely make out another sound... an
-insistent high-pitched whine, strangely familar. The sound is muffled, as it
-appears to be coming from some place above the ceiling.
+In this moment of relative quiet, you can barely make out another sound... an insistent high-pitched whine, strangely familar. The sound is muffled, as it appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403467
@@ -605,11 +481,9 @@ parent-id: 1736659403464
 command: search machine
 --------------------------------------------------------------------------------
 > search machine
-You check around and behind the machine searching for... yes, an on/off switch
-is just reachable on the back side of the machine.
+You check around and behind the machine searching for... yes, an on/off switch is just reachable on the back side of the machine.
 
-A cacacaphony of bells, chimes, and buzzers surge from the strange little
-machine.
+A cacacaphony of bells, chimes, and buzzers surge from the strange little machine.
 
 --------------------------------------------------------------------------------
 id: 1736659403468
@@ -617,11 +491,9 @@ parent-id: 1736659403467
 command: turn it off
 --------------------------------------------------------------------------------
 > turn it off
-You reach behind the machine and toggle its power switch, bringing a pause to
-its endless cacapony.
+You reach behind the machine and toggle its power switch, bringing a pause to its endless cacapony.
 
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
+You can make out a muffled, electronic whine, coming from above you, past the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403469
@@ -631,8 +503,7 @@ command: turn it on
 > turn it on
 You switch the gambling machine on.
 
-The little machine plays a short cascade of notes, desperately trying to get
-your attention.
+The little machine plays a short cascade of notes, desperately trying to get your attention.
 
 --------------------------------------------------------------------------------
 id: 1736659403470
@@ -643,12 +514,9 @@ command: z
 > z
 A moment slips away.
 
-The gambling machine falls silent for a moment, as if it's exhausted from all of
-its efforts to entice you to play.
+The gambling machine falls silent for a moment, as if it's exhausted from all of its efforts to entice you to play.
 
-In this moment of relative quiet, you can barely make out another sound... an
-insistent high-pitched whine, strangely familar. The sound is muffled, as it
-appears to be coming from some place above the ceiling.
+In this moment of relative quiet, you can barely make out another sound... an insistent high-pitched whine, strangely familar. The sound is muffled, as it appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736659403473
@@ -659,8 +527,7 @@ command: talk to bartender
 You catch the bartender's eye, and he's eager to engage with his only customer.
 [0m[36mconv: #bartender discussable quips [#where-everyone-is]
 [0m
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
+You can make out a muffled, electronic whine, coming from above you, past the ceiling.
 
 You could ask where everyone is.
 
@@ -690,16 +557,11 @@ You catch the bartender's eye, and he's eager to engage with his only customer.
 
 You could ask where everyone is.
 
-[0m[4m[Conversations take the form of connect series of questions or statements
-between you and another character in the world
+[0m[4m[Conversations take the form of connect series of questions or statements between you and another character in the world
 
-Here you could [0m[1m[4mask bartender where everyone is[0m[4m, or (because you are already
-talking to the Bartender) you don't have to mention their name, and can just [0m[1m[4mask
-where everyone is[0m[4m.
+Here you could [0m[1m[4mask bartender where everyone is[0m[4m, or (because you are already talking to the Bartender) you don't have to mention their name, and can just [0m[1m[4mask where everyone is[0m[4m.
 
-In fact, you can just type some or all of the words in the suggested topic, 
-[0m[1m[4meveryone[0m[4m, and the game will figure out that it's part of the ongoing
-conversation.][0m
+In fact, you can just type some or all of the words in the suggested topic, [0m[1m[4meveryone[0m[4m, and the game will figure out that it's part of the ongoing conversation.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647600
@@ -707,18 +569,13 @@ parent-id: 1736659403439
 command: say no need to shout
 --------------------------------------------------------------------------------
 > say no need to shout
-"That's quite all right," you say, "plenty to keep me occupied in here. We'll
-chat later."
+"That's quite all right," you say, "plenty to keep me occupied in here. We'll chat later."
 
 His face reveals a mixture of annoyance and relief.
 
-The little machine plays a short cascade of notes, desperately trying to get
-your attention.
+The little machine plays a short cascade of notes, desperately trying to get your attention.
 
-[0m[4m[After each exchange, you are provided with a list of other things you might say
-to continue the conversation (if there are any). There may also be further
-topics you can discuss, however, that are not suggested for puzzle or narrative
-reasons.][0m
+[0m[4m[After each exchange, you are provided with a list of other things you might say to continue the conversation (if there are any). There may also be further topics you can discuss, however, that are not suggested for puzzle or narrative reasons.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647601
@@ -726,18 +583,13 @@ parent-id: 1736659403442
 command: no need to shout
 --------------------------------------------------------------------------------
 > no need to shout
-"That's quite all right," you say, "plenty to keep me occupied in here. We'll
-chat later."
+"That's quite all right," you say, "plenty to keep me occupied in here. We'll chat later."
 
 His face reveals a mixture of annoyance and relief.
 
-The gambling machine plays a triumpant fanfare, all buzzy electronic trumpets,
-then makes a sound like a bucketful of coins spilling into its tray.
+The gambling machine plays a triumpant fanfare, all buzzy electronic trumpets, then makes a sound like a bucketful of coins spilling into its tray.
 
-[0m[4m[After each exchange, you are provided with a list of other things you might say
-to continue the conversation (if there are any). There may also be further
-topics you can discuss, however, that are not suggested for puzzle or narrative
-reasons.][0m
+[0m[4m[After each exchange, you are provided with a list of other things you might say to continue the conversation (if there are any). There may also be further topics you can discuss, however, that are not suggested for puzzle or narrative reasons.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647602
@@ -745,12 +597,9 @@ parent-id: 1736659403460
 command: look up
 --------------------------------------------------------------------------------
 > look up
-Mounted into the ceiling, next to the lamp, is a sizable trap door; you presume
-it gives access to an upper floor, or more likely, a crawl-space above the game
-room.
+Mounted into the ceiling, next to the lamp, is a sizable trap door; you presume it gives access to an upper floor, or more likely, a crawl-space above the game room.
 
-The little machine plays a short cascade of notes, desperately trying to get
-your attention.
+The little machine plays a short cascade of notes, desperately trying to get your attention.
 
 --------------------------------------------------------------------------------
 id: 1736727647603
@@ -758,15 +607,11 @@ parent-id: 1736727647602
 command: feel machine
 --------------------------------------------------------------------------------
 > feel machine
-You check around and behind the machine searching for... yes, an on/off switch
-is just reachable on the back side of the machine.
+You check around and behind the machine searching for... yes, an on/off switch is just reachable on the back side of the machine.
 
-The gambling machine falls silent for a moment, as if it's exhausted from all of
-its efforts to entice you to play.
+The gambling machine falls silent for a moment, as if it's exhausted from all of its efforts to entice you to play.
 
-In this moment of relative quiet, you can barely make out another sound... an
-insistent high-pitched whine, strangely familar. The sound is muffled, as it
-appears to be coming from some place above the ceiling.
+In this moment of relative quiet, you can barely make out another sound... an insistent high-pitched whine, strangely familar. The sound is muffled, as it appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736727647604
@@ -776,8 +621,7 @@ command: x dart
 > x dart
 The board is pocked by long use. You don't see sign of any darts, however.
 
-A cacacaphony of bells, chimes, and buzzers surge from the strange little
-machine.
+A cacacaphony of bells, chimes, and buzzers surge from the strange little machine.
 
 --------------------------------------------------------------------------------
 id: 1736727647605
@@ -785,12 +629,9 @@ parent-id: 1736727647604
 command: push machine
 --------------------------------------------------------------------------------
 > push machine
-You punch at some of the buttons on the annoying machine, but nothing of note
-happens.
+You punch at some of the buttons on the annoying machine, but nothing of note happens.
 
-You hear the sound of rockets launching from the little machine in the corner,
-and see a fireworks display animated on its screen. The explosions fade to the
-word "WIN!".
+You hear the sound of rockets launching from the little machine in the corner, and see a fireworks display animated on its screen. The explosions fade to the word "WIN!".
 
 --------------------------------------------------------------------------------
 id: 1736727647606
@@ -798,11 +639,9 @@ parent-id: 1736727647605
 command: turn machine off
 --------------------------------------------------------------------------------
 > turn machine off
-You reach behind the machine and toggle its power switch, bringing a pause to
-its endless cacapony.
+You reach behind the machine and toggle its power switch, bringing a pause to its endless cacapony.
 
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
+You can make out a muffled, electronic whine, coming from above you, past the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736727647607
@@ -811,11 +650,9 @@ parent-id: 1736727647606
 command: push buttons
 --------------------------------------------------------------------------------
 > push buttons
-You punch at some of the buttons on the annoying machine, but nothing of note
-happens. You doubt much more would happen if it were switched on.
+You punch at some of the buttons on the annoying machine, but nothing of note happens. You doubt much more would happen if it were switched on.
 
-You can make out a muffled, electronic whine, coming from above you, past the
-ceiling.
+You can make out a muffled, electronic whine, coming from above you, past the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1736727647608
@@ -833,30 +670,20 @@ parent-id: 1736727647608
 command: n
 --------------------------------------------------------------------------------
 > n
-You bend down quite low to squeeze under the wooden beam as you make your way
-into the game room.
+You bend down quite low to squeeze under the wooden beam as you make your way into the game room.
 
-"If it's all right with you, sir," the Bartender says, "I'll just stay here and
-keep an eye on the door. I can hear you fine on a quiet night like this. I'm
-sure we'll have a little more company in here, soon enough." You don't think he
-quite believes it, either.
+"If it's all right with you, sir," the Bartender says, "I'll just stay here and keep an eye on the door. I can hear you fine on a quiet night like this. I'm sure we'll have a little more company in here, soon enough." You don't think he quite believes it, either.
 
 [0m[1mGame Room[0m
-The main attraction of this room is a huge billiards table, centered in the
-small space. Arrayed around this centerpiece are a few also-rans: a sad little
-dartboard on the far side of the table from the rest of the pub, and a strange
-little machine on a small shelf wedged into one corner.
+The main attraction of this room is a huge billiards table, centered in the small space. Arrayed around this centerpiece are a few also-rans: a sad little dartboard on the far side of the table from the rest of the pub, and a strange little machine on a small shelf wedged into one corner.
 
-The bartender watches you expectantly from the his preferred spot behind the
-bar.
+The bartender watches you expectantly from the his preferred spot behind the bar.
 
-A cacacaphony of bells, chimes, and buzzers surge from the strange little
-machine.
+A cacacaphony of bells, chimes, and buzzers surge from the strange little machine.
 
 You could say that the machine is quite noisy or say no need to shout.
 
-[0m[4m[Some objects, such as the billiards table, are big enough for you to stand on.
-Try [0m[1m[4mclimb table[0m[4m.][0m
+[0m[4m[Some objects, such as the billiards table, are big enough for you to stand on. Try [0m[1m[4mclimb table[0m[4m.][0m
 
 --------------------------------------------------------------------------------
 id: 1736727647610
@@ -867,8 +694,7 @@ command: exits
 Obvious exits are:
 South to Inside the Pub.
 
-The little machine plays a short cascade of notes, desperately trying to get
-your attention.
+The little machine plays a short cascade of notes, desperately trying to get your attention.
 
 You could say that the machine is quite noisy or say no need to shout.
 
@@ -881,11 +707,7 @@ command: s
 You again duck under the low beam, back into the pub proper.
 
 [0m[1mInside the Pub[0m
-The pub's interior matches your every expectation. Dark wood, a well polished
-bar, several deep booths. Despite the early hour and chill outside, the pub is
-empty but for the bartender endlessly polishing the bar. Through a low overhang,
-an ancient and likely structural wooden beam, you can see a few flashing lights
-from the room to the north.
+The pub's interior matches your every expectation. Dark wood, a well polished bar, several deep booths. Despite the early hour and chill outside, the pub is empty but for the bartender endlessly polishing the bar. Through a low overhang, an ancient and likely structural wooden beam, you can see a few flashing lights from the room to the north.
 
 You could say that the machine is quite noisy.
 
@@ -909,12 +731,9 @@ command: e
 > e
 There doesn't appear to be an exit in that direction.
 
-The gambling machine falls silent for a moment, as if it's exhausted from all of
-its efforts to entice you to play.
+The gambling machine falls silent for a moment, as if it's exhausted from all of its efforts to entice you to play.
 
-In this moment of relative quiet, you can barely make out another sound... an
-insistent high-pitched whine, strangely familar. The sound is muffled, as it
-appears to be coming from some place above the ceiling.
+In this moment of relative quiet, you can barely make out another sound... an insistent high-pitched whine, strangely familar. The sound is muffled, as it appears to be coming from some place above the ceiling.
 
 --------------------------------------------------------------------------------
 id: 1770696654131
@@ -924,8 +743,7 @@ command: talk to bartender
 > talk to bartender
 You catch the bartender's eye, and he's eager to engage with his only customer.
 
-A cacacaphony of bells, chimes, and buzzers surge from the strange little
-machine.
+A cacacaphony of bells, chimes, and buzzers surge from the strange little machine.
 
 You could ask where everyone is or say that the machine is quite noisy.
 
@@ -937,13 +755,9 @@ command: everyone
 > everyone
 "Hey mate," you say, "awfully quiet night in here, isn't it?"
 
-"Right you are sir!" he says, with just a note of agitation. "Been like this for
-too long, I say. But it's not like folks are going to go all dry, is it?" He
-thinks for a moment. "Things will pick up, soon enough; they have to."
+"Right you are sir!" he says, with just a note of agitation. "Been like this for too long, I say. But it's not like folks are going to go all dry, is it?" He thinks for a moment. "Things will pick up, soon enough; they have to."
 
-You hear the sound of rockets launching from the little machine in the corner,
-and see a fireworks display animated on its screen. The explosions fade to the
-word "WIN!".
+You hear the sound of rockets launching from the little machine in the corner, and see a fireworks display animated on its screen. The explosions fade to the word "WIN!".
 
 You could say that the machine is quite noisy.
 
@@ -953,17 +767,13 @@ parent-id: 1770696654132
 command: noisy
 --------------------------------------------------------------------------------
 > noisy
-"This thing," you say, pointing at the game machine, "makes quite the racket,
-doesn't it?" you state.
+"This thing," you say, pointing at the game machine, "makes quite the racket, doesn't it?" you state.
 
-"Don't know that you can have a proper pub, these days, without at least one of
-'em. Brings in quite the crowd, I gather." He half-smiles, a bit sardonically,
-while glancing around the empty pub.
+"Don't know that you can have a proper pub, these days, without at least one of 'em. Brings in quite the crowd, I gather." He half-smiles, a bit sardonically, while glancing around the empty pub.
 
 "Still, on billiards night, I have to turn it off. Too much of a distraction."
 
-A cacacaphony of bells, chimes, and buzzers surge from the strange little
-machine.
+A cacacaphony of bells, chimes, and buzzers surge from the strange little machine.
 
 You could ask to turn it off.
 
@@ -973,23 +783,15 @@ parent-id: 1770696654134
 command: off
 --------------------------------------------------------------------------------
 > off
-"I have no intention of engaging with that thing, could you bloody well pull the
-plug?".
+"I have no intention of engaging with that thing, could you bloody well pull the plug?".
 
-"Sorry, no," he replies "I like to keep tabs on the bar, unless I need to nip
-into the kitchen."
+"Sorry, no," he replies "I like to keep tabs on the bar, unless I need to nip into the kitchen."
 
-The Bartender cranes his head awkwardly to find you in the game room. "You
-know," says the bartender, "I could pull out the cue and balls for you, if you'd
-like to get in some practice. We have ourselves a little tourney, first
-Fridays," he adds, looking around the empty pub, "most months."
+The Bartender cranes his head awkwardly to find you in the game room. "You know," says the bartender, "I could pull out the cue and balls for you, if you'd like to get in some practice. We have ourselves a little tourney, first Fridays," he adds, looking around the empty pub, "most months."
 
-The gambling machine falls silent for a moment, as if it's exhausted from all of
-its efforts to entice you to play.
+The gambling machine falls silent for a moment, as if it's exhausted from all of its efforts to entice you to play.
 
-In this moment of relative quiet, you can barely make out another sound... an
-insistent high-pitched whine, strangely familar. The sound is muffled, as it
-appears to be coming from some place above the ceiling.
+In this moment of relative quiet, you can barely make out another sound... an insistent high-pitched whine, strangely familar. The sound is muffled, as it appears to be coming from some place above the ceiling.
 
 You could say the table is lacking dimensions.
 
@@ -1003,15 +805,11 @@ command: dimensions
 
 "It's absolutely regulation size!" the bartender admonishes.
 
-"I'm sure it is, chap" you reply, "but playing in a merely two dimensional field
-just doesn't hold my interest."
+"I'm sure it is, chap" you reply, "but playing in a merely two dimensional field just doesn't hold my interest."
 
 The bartender looks disappointed and confused.
 
-The Bartender cranes his head awkwardly to find you in the game room. "So,"
-begins the bartender, "interested in a pint? We don't have much for food, but I
-could put together a bit of bangers and mash for you.""
+The Bartender cranes his head awkwardly to find you in the game room. "So," begins the bartender, "interested in a pint? We don't have much for food, but I could put together a bit of bangers and mash for you.""
 
-A cacacaphony of bells, chimes, and buzzers surge from the strange little
-machine.
+A cacacaphony of bells, chimes, and buzzers surge from the strange little machine.
 
