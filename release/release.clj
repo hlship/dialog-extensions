@@ -40,7 +40,8 @@
             ["LICENSE"
              "README.md"
              "CHANGES.md"
-             "lib/ext" ])
+             "lib/ext" 
+             "docs"])
     zip-file))
 
 (defn sha256
