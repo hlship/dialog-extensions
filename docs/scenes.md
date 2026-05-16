@@ -2,7 +2,7 @@
 
 Scenes represent special situations within the overall flow of your project's narrative. 
 The `lib/ext/scenes.dg` library represents a more concrete set of code than the general pattern of 
-scenes described in [the Dialog manual](https://linusakesson.net/dialog/docs/timeprogress.html#cutscenes).
+scenes described in [the Dialog manual](https://dialog-if.github.io/manual/dialog/1b02/lib/timeprogress.html#cutscenes).
 
 Essentially, each scene is triggered by some situation in the world, runs for a bit, then completes. Most scenes
 are one-offs, but other scenes can repeat.
