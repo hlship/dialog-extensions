@@ -33,7 +33,6 @@
 (style class @tutorial)
   font-style: italic;
 
-%% Produces unwanted trailing spaces in dgdebug
 (style class @suggestion)
   font-weight: bold;
 
