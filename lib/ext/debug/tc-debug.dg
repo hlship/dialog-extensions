@@ -1,4 +1,4 @@
-%% dependencies: annotations.dg
+%% dependencies: lib/ext/debug/annotations.dg, lib/ext/tc.dg
 
 %%
 %% Debugging tools for Threaded Conversation

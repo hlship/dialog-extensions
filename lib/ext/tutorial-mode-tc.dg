@@ -1,8 +1,10 @@
+%% dependencies: lib/ext/tc.dg, lib/ext/tutorial-mode.dg
+
 #enter-conversation
 (tutorial suggestion *)
 (can perform * with $Who)
     ~(conversation partner $)
-    *(animate $Who)
+    *(animate $Who)REA
     (player can see $Who)
     ~(ignored by tutorial $Who)
     %% This may need some refinement

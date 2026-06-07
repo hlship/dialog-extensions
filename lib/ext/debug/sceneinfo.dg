@@ -1,11 +1,8 @@
-%% dependencies: annotations.dg
+%% dependencies: lib/ext/debug/annotations.dg
 
 (understand command [sceneinfo])
 
 (perform [sceneinfo])
-    (scene info)
-
-(scene info)
     (exhaust) {
         *(scene $Scene)
         $Scene

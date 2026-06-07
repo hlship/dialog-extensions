@@ -1,3 +1,5 @@
+%% dependencies: none
+
 (understand command [tutorial off])
 
 (perform [tutorial off])

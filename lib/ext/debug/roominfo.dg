@@ -1,4 +1,4 @@
-%% dependencies: annoations.dg
+%% dependencies: lib/ext/debug/annotations.dg
 
 %% Like @tree, but rooted in current room, and shows relations and other details
 %% about the room and items.
